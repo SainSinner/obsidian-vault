@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "e14c87aea1c05e69",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbe59fe9e5f710fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1034b0f3de6c5330",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/PySpark/Основа.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Основа"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0186e386ae5ea08",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede244ccb0e37e86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "822df6e08e5bf89f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "de51cfe7951dbcd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "76eaf993aa1286d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219.5
+  },
+  "right": {
+    "id": "522fd2f53318f02e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b3c29a676bc5bef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aac95ad6876e7b7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Greenplum/Полезные вопросы по GreenPlum.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Полезные вопросы по GreenPlum"
+            }
+          },
+          {
+            "id": "1f23035a92d18024",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Динамическая генерация условия"
+            }
+          },
+          {
+            "id": "6a0a18e5bb40bf46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "3cd3d5e6d5b3d720",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Динамическая генерация условия"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "1034b0f3de6c5330",
+  "lastOpenFiles": [
+    "Разработка. Задача UMDEKB-17676..md",
+    "Python/PySpark/Основа.md",
+    "Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
+    "Python/PySpark/Как читать и писать разные виды файлов.md",
+    "Docker/Полезные команды.md",
+    "GrayLog/Запуск GrayLog в докере.md",
+    "GIT/Git запросы и обращение с репозиторием.md",
+    "Python/PySpark/SPARK SQL и SPARK функции.md",
+    "Python/PySpark/Работа с запросами.md",
+    "Python/PySpark/Сравнение типов данных, что когда использовать.md",
+    "Python/Заметки.md",
+    "Python/Python Workshop.md",
+    "Python/PyCharm.md",
+    "VPN/Настройка VPN и Proxy.md",
+    "Pasted image 20250714233406.png",
+    "Pasted image 20250714233306.png",
+    "Pasted image 20250714233144.png",
+    "Pasted image 20250714233023.png",
+    "Pasted image 20250714232942.png",
+    "Pasted image 20250714232042.png",
+    "Pasted image 20250714231927.png",
+    "Pasted image 20250714231651.png",
+    "Pasted image 20250714231402.png",
+    "Pasted image 20250714231045.png",
+    "Python/PySpark.md",
+    "Python/PySpark",
+    "ЦОД/Идеи заработка на ЦОД.md",
+    "ЦОД/Компании занимающиеся ЦОДами.md",
+    "ЦОД/Теория и рынок в России.md",
+    "ЦОД",
+    "Kafka/Valuable links Kafka.md",
+    "Linux/Полезные команды.md",
+    "Linux/Curl запросы.md",
+    "Hadoop/HDFS.md",
+    "ASG/1C/1C.md",
+    "ASG/1C/узнать тип данных у регистра.md",
+    "ASG/1C/Ссылки на обработки.md",
+    "ASG/1C/Отладка HTTP-сервиса в 1С.md",
+    "Apache Airflow для аналитика/logseq/config.edn",
+    "logseq/config.edn",
+    "Apache Airflow для аналитика/logseq/custom.css",
+    "logseq/custom.css",
+    "logseq/bak/Без названия",
+    "Apache Airflow для аналитика/pages",
+    "Apache Airflow для аналитика/journals",
+    "Apache Airflow для аналитика/logseq",
+    "Заметки для дырявой головы.canvas"
+  ]
+}

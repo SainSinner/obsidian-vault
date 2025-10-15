@@ -1,0 +1,2 @@
+Интересный модель направленный на синхронизацию таблиц в различных серверах и не только.
+[PostgreSQL : Документация: 16: F.38. postgres_fdw — обращение к данным, находящимся на внешних серверах PostgreSQL : Компания Postgres Professional](https://postgrespro.ru/docs/postgresql/16/postgres-fdw#POSTGRES-FDW)

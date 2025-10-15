@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"316341153d5ed086","type":"file","file":"Craig_Johnston_Advanced_Platform_Development_with_Kubernetes_Enabling.pdf","x":-860,"y":-339,"width":400,"height":400},
+		{"id":"bfb928cee01735f2","type":"file","file":"999999_Images/Visual_SQL_JOINS_orig.jpg","x":-1260,"y":-520,"width":460,"height":362},
+		{"id":"9e648e09d4b0b605","type":"text","text":"Импорт - ввозим домой что-то\nЭкспорт - вывозим из дома что-то","x":-780,"y":-520,"width":320,"height":60},
+		{"id":"d31e27b6f5f3054f","type":"file","file":"999999_Images/Pasted image 20250216221850.png","x":-780,"y":-440,"width":160,"height":231}
+	],
+	"edges":[]
+}

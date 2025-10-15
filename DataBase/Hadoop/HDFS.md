@@ -1,0 +1,5 @@
+[Что такое HDFS: все о Hadoop Distributed File System](https://bigdataschool.ru/wiki/hdfs)
+[Как HDFS сохраняет большие данные: запись файлов Big Data](https://bigdataschool.ru/blog/hdfs-%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c-%d1%84%d0%b0%d0%b9%d0%bb%d0%be%d0%b2-big-data.html)
+[Что такое Apache Spark: история, архитектура, особенности работы](https://bigdataschool.ru/wiki/spark#:~:text=%D0%92%20%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D0%B5%20%D0%BE%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0,%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D1%83%D1%8E%D1%82%D1%81%D1%8F%20%D0%B2%20%D0%A1%D0%BF%D0%B0%D1%80%D0%BA%20%D0%B7%D0%BD%D0%B0%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%B5%D0%B5.)
+[Что такое MapReduce: принципы работы главной технологии Big Data](https://bigdataschool.ru/wiki/mapreduce)
+[Что такое MapR CDP: архитектура, история, применение в Big Data](https://bigdataschool.ru/wiki/mapr)

@@ -1,0 +1,2 @@
+###### Настройка ввода input из файла txt (помогает ускорить процесс тестирования)
+More Actions(рядом с кнопкой RUN) >> Configuration Edit >> Слева выбираем файл со скриптом >> Справа ищем Modify options >> Redirect input >> Redirect input from (тут указываем файл из которого будем брать ввод) >> Apply

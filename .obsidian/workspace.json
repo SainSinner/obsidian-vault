@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "e14c87aea1c05e69",
+    "type": "split",
+    "children": [
+      {
+        "id": "d33fa0132289bb97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "026a49089753b07b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Готовимся к собеседованию/Теория для собеседований.SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Теория для собеседований.SQL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0186e386ae5ea08",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede244ccb0e37e86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "822df6e08e5bf89f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "de51cfe7951dbcd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "76eaf993aa1286d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5
+  },
+  "right": {
+    "id": "522fd2f53318f02e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b3c29a676bc5bef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aac95ad6876e7b7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Greenplum/Полезные вопросы по GreenPlum.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Полезные вопросы по GreenPlum"
+            }
+          },
+          {
+            "id": "1f23035a92d18024",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Динамическая генерация условия"
+            }
+          },
+          {
+            "id": "6a0a18e5bb40bf46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "3cd3d5e6d5b3d720",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Динамическая генерация условия"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "026a49089753b07b",
+  "lastOpenFiles": [
+    "DataBase/PostgreSQL_SQLLang/Оконные функции.md",
+    "Готовимся к собеседованию/Теория для собеседований.SQL.md",
+    "DataBase/PostgreSQL_SQLLang/Агрегатные функции.md",
+    "DataBase/PostgreSQL_SQLLang/Joins. Виды соединений таблиц.md",
+    "999999_Images/Visual_SQL_JOINS_orig.jpg",
+    "999999_Images/Pasted image 20241126183229.png",
+    "999999_Images/Pasted image 20241126181953.png",
+    "999999_Images/Pasted image 20241120170239.png",
+    "999999_Images/Pasted image 20241002183313.png",
+    "DataBase/Векторные базы данных.md",
+    "DataBase/RAG система.md",
+    "Заметки для дырявой головы.canvas",
+    "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
+    "Python/PyCharm.md",
+    "Python/Python Workshop.md",
+    "Готовимся к собеседованию/Теория для собеседований.Python.md",
+    "Python/PySpark/SPARK SQL и SPARK функции.md",
+    "Python/PySpark/Сравнение типов данных, что когда использовать.md",
+    "Python/PySpark/Работа с запросами.md",
+    "Python/PySpark/Основа.md",
+    "Python/PySpark/Как читать и писать разные виды файлов.md",
+    "Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
+    "Python/Заметки.md",
+    "Python/Алгоритмы.md",
+    "999998_books/1_Книги. Списки.md",
+    "999998_books/Learning_Spark_Jules_D.pdf",
+    "999998_books/LearningSpark2.0.pdf",
+    "DataBase/PostgreSQL_SQLLang/Последовательность выполнения запроса SELECT.md",
+    "DataBase/PostgreSQL_SQLLang/Множим строки через Regex.md",
+    "DataBase/PostgreSQL_SQLLang/Создание пустых таблиц.md",
+    "DataBase/DWH и модель данных/7 последовательность выполнения запроса SELECT.md",
+    "DataBase/PostgreSQL_SQLLang/Транслирование таблиц между серверами PostgreSQL.md",
+    "DataBase/PostgreSQL_SQLLang/Задание на отбор на позицию в Сбер Разраб баз данных.md",
+    "999998_books/Оптимизация_запросов_в_postgresql_Г_Домбровская_Б_Новиков_А_Бейликова.pdf",
+    "Путешествия",
+    "бизнес-аналитика от данных к знаниям.djvu",
+    "999998_books/Введение_в_машинное_обучение_с_помощью_python_А_Мюллер_С_Гвидо.pdf",
+    "999998_books/Метод_гистограмм_С_Солонин.pdf",
+    "999998_books/Pentaho_kettle_solutions_M_Casters.pdf",
+    "999998_books/The_big_book_of_dashdoards_S_Wexler.pdf",
+    "999998_books/Lean_analytics_A_Croll.pdf",
+    "999999_Images/Pasted image 20250714233144.png",
+    "999999_Images/Pasted image 20250929101737.png",
+    "Apache Airflow для аналитика/Pasted image 20240911183532.png",
+    "Apache Airflow для аналитика/Pasted image 20240831190819.png",
+    "999999_Images/Pasted image 20250929103631.png"
+  ]
+}
