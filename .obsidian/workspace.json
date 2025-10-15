@@ -166,10 +166,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "026a49089753b07b",
+  "active": "822df6e08e5bf89f",
   "lastOpenFiles": [
-    "DataBase/PostgreSQL_SQLLang/Оконные функции.md",
     "Готовимся к собеседованию/Теория для собеседований.SQL.md",
+    "DataBase/PostgreSQL_SQLLang/Оконные функции.md",
     "DataBase/PostgreSQL_SQLLang/Агрегатные функции.md",
     "DataBase/PostgreSQL_SQLLang/Joins. Виды соединений таблиц.md",
     "999999_Images/Visual_SQL_JOINS_orig.jpg",
