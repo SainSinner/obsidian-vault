@@ -4,32 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d33fa0132289bb97",
+        "id": "f0160c82f0985c96",
         "type": "tabs",
         "children": [
           {
-            "id": "026a49089753b07b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Готовимся к собеседованию/Теория для собеседований.SQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Теория для собеседований.SQL"
-            }
-          },
-          {
-            "id": "4fb22ef2c6cae4bb",
+            "id": "fc110a99693ee461",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Готовимся к собеседованию/Решение задач.md",
+                "file": "0_Готовимся к собеседованию/Решение задач.md",
                 "mode": "source",
                 "source": false
               },
@@ -37,8 +21,7 @@
               "title": "Решение задач"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,43 +164,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "4fb22ef2c6cae4bb",
+  "active": "fc110a99693ee461",
   "lastOpenFiles": [
-    "Готовимся к собеседованию/Теория для собеседований.SQL.md",
-    "Готовимся к собеседованию/Решение задач.md",
-    "DataBase/PostgreSQL_SQLLang/Joins. Виды соединений таблиц.md",
-    "DataBase/PostgreSQL_SQLLang/Последовательность выполнения запроса SELECT.md",
+    "Задачи с собеседований.sql",
+    "0_Готовимся к собеседованию/План подготовки.md",
+    "Путешествия/Черногория.md",
+    "0_Готовимся к собеседованию/Решение задач.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Агрегатные функции.md",
+    "Путешествия/Марокко (Касабланка).md",
+    "Путешествия/Иран (Тегеран).md",
+    "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
+    "1_DataBase/Greenplum/Динамическая генерация условия.md",
+    "1_DataBase/Greenplum/Вставка данных пакетами из NIFI в GP/Вставка данных пакетами из NIFI в GP.md",
+    "1_DataBase/Greenplum/Вставка данных пакетами из NIFI в GP/Pasted image 20240828202219.png",
+    "1_DataBase/Greenplum/Отладка процедуры в Greenplum и Posgresql.md",
+    "1_DataBase/Greenplum/Курс_Разработка серверной части приложений PostgreSQL 16.Базовый курс.md",
+    "1_DataBase/Greenplum/Запросы и команды Greenplum.md",
+    "1_DataBase/ClickHouse/Индексы в ClickHouse.md",
+    "1_DataBase/ClickHouse/Движок таблицы (тип таблицы).md",
+    "1_DataBase/ClickHouse/Что такое ClickHouse.md",
+    "0_Готовимся к собеседованию/Теория для собеседований.SQL.md",
+    "0_Готовимся к собеседованию/Теория для собеседований.Python.md",
+    "VPN/Настройка VPN и Proxy.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Joins. Виды соединений таблиц.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Последовательность выполнения запроса SELECT.md",
     "Расписание дня..md",
-    "Готовимся к собеседованию/Теория для собеседований.Python.md",
     "Python/Алгоритмы.md",
     "Python/Заметки.md",
-    "DataBase/S3/Что такое S3.md",
-    "Готовимся к собеседованию/План подготовки.md",
-    "DataBase/S3",
+    "1_DataBase/S3/Что такое S3.md",
+    "1_DataBase/S3",
     "Заметки для дырявой головы.canvas",
-    "DataBase/PostgreSQL_SQLLang/Оконные функции.md",
-    "DataBase/PostgreSQL_SQLLang/Агрегатные функции.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
     "999999_Images/Visual_SQL_JOINS_orig.jpg",
     "999999_Images/Pasted image 20241126183229.png",
     "999999_Images/Pasted image 20241126181953.png",
     "999999_Images/Pasted image 20241120170239.png",
     "999999_Images/Pasted image 20241002183313.png",
-    "DataBase/Векторные базы данных.md",
-    "DataBase/RAG система.md",
-    "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
-    "Python/PyCharm.md",
-    "Python/Python Workshop.md",
-    "Python/PySpark/SPARK SQL и SPARK функции.md",
-    "Python/PySpark/Сравнение типов данных, что когда использовать.md",
-    "Python/PySpark/Работа с запросами.md",
-    "Python/PySpark/Основа.md",
-    "Python/PySpark/Как читать и писать разные виды файлов.md",
-    "Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
-    "999998_books/1_Книги. Списки.md",
     "999998_books/Learning_Spark_Jules_D.pdf",
     "999998_books/LearningSpark2.0.pdf",
-    "DataBase/PostgreSQL_SQLLang/Множим строки через Regex.md",
-    "DataBase/PostgreSQL_SQLLang/Создание пустых таблиц.md",
     "999998_books/Оптимизация_запросов_в_postgresql_Г_Домбровская_Б_Новиков_А_Бейликова.pdf",
     "Путешествия",
     "бизнес-аналитика от данных к знаниям.djvu",
@@ -228,7 +212,6 @@
     "999999_Images/Pasted image 20250714233144.png",
     "999999_Images/Pasted image 20250929101737.png",
     "Apache Airflow для аналитика/Pasted image 20240911183532.png",
-    "Apache Airflow для аналитика/Pasted image 20240831190819.png",
-    "999999_Images/Pasted image 20250929103631.png"
+    "Apache Airflow для аналитика/Pasted image 20240831190819.png"
   ]
 }
