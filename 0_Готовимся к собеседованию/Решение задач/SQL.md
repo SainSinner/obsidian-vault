@@ -4,6 +4,92 @@ https://postgrespro.ru/docs/postgrespro/current/tutorial-window
 https://postgrespro.ru/docs/postgrespro/current/functions-window
 
 ![[Задачи с собеседований.sql]]
+
+## Как работает UION 
+
+Имеем 2 таблицы.
+t_table1
+Article Price
+1 10.000
+1 NULL
+1 40.000
+
+t_table2
+Article Price
+1 30.000
+1 20.000
+1 30.000
+1 NULL
+
+Что вернет следующий селект:
+
+SELECT Article, sum(Price), avg(Price), count(1), count(price)
+FROM
+(SELECT Article, Price
+FROM t_table1
+UNION
+SELECT Article, Price
+FROM t_table2) t
+GROUP BY Article
+
+## Cross join и сортировка
+
+Имеем 2 таблицы.
+t_table1
+Article Price
+1 10.000
+1 NULL
+1 40.000
+
+t_table2
+Article Price
+1 30.000
+1 20.000
+1 30.000
+1 NULL
+
+SELECT top 1 * FROM t_table1 t
+cross join t_table2 tt
+order by t.price asc, tt.price desc
+## Оконные функции и как они работают
+
+Имеем таблицу t_table:
+Article Price Weight Group_id
+1 10.000 15.000 20
+2 18.000 100.000 21
+1 20.000 19.000 21
+1 10.000 52.000 31
+2 NULL 191.000 31
+2 18.000 NULL 31
+
+SELECT Article
+, rank() over (partition by article order by price)
+, dense_rank() over (partition by article, price order by weight desc)
+, lag(weight) over (partition by article order by weight)
+, row_number() over (partition by article, group_id order by weight)
+FROM t_table
+## Работа подзапроса и как фильтруется значение null in null
+t_table1
+Article Price
+1 10.000
+1 NULL
+1 40.000
+1 30.000
+
+t_table2
+Article Price
+1 30.000
+1 20.000
+1 30.000
+1 NULL
+
+SELECT Article, CASE WHEN Price >= 30.000 THEN 1
+WHEN Price <= 40.000 THEN 2
+WHEN Price IS NULL THEN 3
+WHEN Price = 10.000 THEN 4
+ELSE 5 END
+FROM t_table1
+WHERE (Article, Price) IN (SELECT Article, Price FROM t_table2
 ## Баланса счета во все моменты времени. Нарастающий остаток. Оконная функция для проставления 
 
 OperationID - numeric(15,0) - Уникальный идентификатор операции
@@ -353,7 +439,27 @@ WHERE salary > (SELECT AVG(salary) FROM employees);
 В таблице `employees` напишите запрос, который возвращает:  
 - имя сотрудника  
 - зарплату  
-- ранг по зарплате внутри своего `department_id` (нумерация по убыванию зарплаты).
+- ранг по зарплате внутри свзарплату  В таблице `employees` напишите запрос, который возвращает:  t_table1  
+Article Price  
+1 10.000  
+1 NULL  
+1 40.000  
+1 30.000  
+  
+t_table2  
+Article Price  
+1 30.000  
+1 20.000  
+1 30.000  
+1 NULL  
+  
+SELECT Article, CASE WHEN Price >= 30.000 THEN 1  
+WHEN Price <= 40.000 THEN 2  
+WHEN Price IS NULL THEN 3  
+WHEN Price = 10.000 THEN 4  
+ELSE 5 END  
+FROM t_table1  
+WHERE (Article, Price) IN (SELECT Article, Price FROM t_table2оего `department_id` (нумерация по убыванию зарплаты).
 
 ```sql
 SELECT 

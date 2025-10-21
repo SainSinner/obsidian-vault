@@ -1,13 +1,28 @@
 {
 	"nodes":[
-		{"id":"cdbb65fd7b87b329","type":"text","text":"# ЗАДАЧИ","x":-560,"y":-440,"width":250,"height":50,"color":"2"},
-		{"id":"2b65efc1bf0e95b9","type":"file","file":"0_Готовимся к собеседованию/Решение задач/Архитектура.md","x":-560,"y":-200,"width":400,"height":360},
+		{"id":"cdbb65fd7b87b329","type":"text","text":"# ЗАДАЧИ","x":-560,"y":-440,"width":250,"height":50,"color":"1"},
+		{"id":"2b65efc1bf0e95b9","type":"file","file":"0_Готовимся к собеседованию/Решение задач/Архитектура.md","x":-560,"y":-200,"width":400,"height":920},
 		{"id":"8d94eb637397162f","type":"file","file":"0_Готовимся к собеседованию/Решение задач/SQL.md","x":-160,"y":-200,"width":640,"height":1320},
 		{"id":"4696b3dcf4e43afe","type":"file","file":"0_Готовимся к собеседованию/Решение задач/Python. Algo.md","x":520,"y":-200,"width":600,"height":1320},
 		{"id":"4876d016c1295da4","type":"file","file":"0_Готовимся к собеседованию/Решение задач/Python. Data data engineering.md","x":1160,"y":-200,"width":600,"height":1320},
-		{"id":"9e987cb2b79bd1fb","type":"text","text":"# SQL","x":-560,"y":-1240,"width":250,"height":50},
-		{"id":"fa9a137e5528eec6","x":-140,"y":-1120,"width":400,"height":640,"type":"file","file":"1_DataBase/1_PostgreSQL_SQLLang/Последовательность выполнения запроса SELECT.md"},
-		{"id":"32ff6768b27153fe","x":-580,"y":-1120,"width":400,"height":640,"type":"file","file":"0_Готовимся к собеседованию/Теория для собеседований.SQL.md"}
+		{"id":"1cb2a99830ec3452","type":"file","file":"999998_books/Топ вопросы для Data Engineer.pdf","x":-560,"y":-2880,"width":780,"height":680},
+		{"id":"9e987cb2b79bd1fb","type":"text","text":"# SQL","x":-560,"y":-2140,"width":250,"height":50,"color":"1"},
+		{"id":"32ff6768b27153fe","type":"file","file":"0_Готовимся к собеседованию/Теория для собеседований.SQL.md","x":-560,"y":-2020,"width":400,"height":640},
+		{"id":"fa9a137e5528eec6","type":"file","file":"1_DataBase/1_PostgreSQL_SQLLang/Последовательность выполнения запроса SELECT.md","x":-140,"y":-2020,"width":400,"height":640},
+		{"id":"0ce573d5e46bfd5b","type":"file","file":"0_Готовимся к собеседованию/Теория для собеседований.Python.md","x":-560,"y":-1240,"width":820,"height":760},
+		{"id":"876f9f82bb6f06c1","type":"file","file":"1_DataBase/1_PostgreSQL_SQLLang/Joins. Виды соединений таблиц.md","x":280,"y":-2020,"width":400,"height":640},
+		{"id":"97a75f159d094539","type":"file","file":"1_DataBase/1_PostgreSQL_SQLLang/Агрегатные функции.md","x":700,"y":-2020,"width":400,"height":640},
+		{"id":"58e968366730a735","type":"file","file":"1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md","x":1120,"y":-2020,"width":400,"height":640},
+		{"id":"f6daf522d7962048","type":"text","text":"# Impala","x":2360,"y":-2140,"width":250,"height":60,"color":"1"},
+		{"id":"1ba47ca42af74c34","type":"file","file":"2_ETL/Impala/Impala. теория..md","x":2360,"y":-2020,"width":660,"height":640},
+		{"id":"f7d4074b5c8cd3d9","type":"text","text":"# ClikHouse","x":3080,"y":-2140,"width":250,"height":60,"color":"1"},
+		{"id":"764614848b5b26c2","type":"file","file":"1_DataBase/ClickHouse/Что такое ClickHouse.md","x":3080,"y":-2020,"width":640,"height":640},
+		{"id":"58542353e2f46e00","type":"file","file":"1_DataBase/0_DWH и модель данных/8 EXPLAIN ANALYZE.md","x":1540,"y":-2020,"width":400,"height":640},
+		{"id":"5ba5b06e961f363c","type":"file","file":"999998_books/Топ вопросы для Data Engineer.pdf","x":290,"y":-1240,"width":780,"height":760},
+		{"id":"b3641e65d88950c7","type":"text","text":"# Python","x":-560,"y":-1340,"width":250,"height":60,"color":"1"},
+		{"id":"035641a186387749","x":290,"y":-1340,"width":250,"height":60,"color":"1","type":"text","text":"# AirFlow"},
+		{"id":"0a3c55602228862c","x":1100,"y":-1240,"width":700,"height":760,"type":"file","file":"2_ETL/Kafka/Debezium. теория.md"},
+		{"id":"4f3ec6be08616be0","x":1840,"y":-1240,"width":640,"height":760,"type":"file","file":"2_ETL/Kafka/Различие Kafka, RabbitMQ.md"}
 	],
 	"edges":[
 		{"id":"2525a8d0af7554a3","fromNode":"cdbb65fd7b87b329","fromSide":"bottom","toNode":"2b65efc1bf0e95b9","toSide":"top"},
