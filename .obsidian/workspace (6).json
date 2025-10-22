@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "e14c87aea1c05e69",
+    "type": "split",
+    "children": [
+      {
+        "id": "da0439f688ba708a",
+        "type": "tabs",
+        "dimension": 52.58899676375405,
+        "children": [
+          {
+            "id": "53a545f4ce6a6d86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/Greenplum/Архитектура ADB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Архитектура ADB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f0160c82f0985c96",
+        "type": "tabs",
+        "dimension": 47.41100323624595,
+        "children": [
+          {
+            "id": "fc110a99693ee461",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "0_Готовимся к собеседованию/0.canvas",
+                "viewState": {
+                  "x": 3392.5749286275304,
+                  "y": -1071.228586481427,
+                  "zoom": -0.7149155354266976
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "0"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0186e386ae5ea08",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede244ccb0e37e86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "822df6e08e5bf89f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "de51cfe7951dbcd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "spark",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "76eaf993aa1286d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 245.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "522fd2f53318f02e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b3c29a676bc5bef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aac95ad6876e7b7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Greenplum/Полезные вопросы по GreenPlum.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Полезные вопросы по GreenPlum"
+            }
+          },
+          {
+            "id": "1f23035a92d18024",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Динамическая генерация условия"
+            }
+          },
+          {
+            "id": "6a0a18e5bb40bf46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "3cd3d5e6d5b3d720",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Динамическая генерация условия"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "53a545f4ce6a6d86",
+  "lastOpenFiles": [
+    "Pasted image 20251022141710.png",
+    "Pasted image 20251022141651.png",
+    "Pasted image 20251022141433.png",
+    "0_Готовимся к собеседованию/0.canvas",
+    "1_DataBase/Greenplum/Архитектура ADB.md",
+    "1_DataBase/Greenplum/Распределение данных.md",
+    "1_DataBase/Greenplum/Индексы.md",
+    "1_DataBase/Greenplum/Ключи.md",
+    "1_DataBase/Greenplum/Data Motion.md",
+    "1_DataBase/Greenplum/Valuable link Greenplum.md",
+    "1_DataBase/Greenplum/Сжатие данных.md",
+    "1_DataBase/Greenplum/Таблицы.md",
+    "1_DataBase/Greenplum/Партиционирование.md",
+    "1_DataBase/Greenplum/Запросы и команды Greenplum.md",
+    "0_Готовимся к собеседованию/Решение задач/SQL.md",
+    "VPN/ASG VPN.md",
+    "MAC/Как настроить свой MAC.md",
+    "Pasted image 20251021093511.png",
+    "MAC",
+    "Untitled.canvas",
+    "999998_books/Топ вопросы для Data Engineer.pdf",
+    "0_Готовимся к собеседованию/Решение задач/Python. Data data engineering.md",
+    "999998_books/1_Книги. Списки.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Множим строки через Regex.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Задание на отбор на позицию в Сбер Разраб баз данных.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Анализ запросов.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Агрегатные функции.md",
+    "2_ETL/Impala/Impala. теория. (2).md",
+    "0_Готовимся к собеседованию/Теория для собеседований.SQL.md",
+    "0_Готовимся к собеседованию/Теория для собеседований.Python.md",
+    "0_Готовимся к собеседованию/Решение задач/Python. Algo.md",
+    "0_Готовимся к собеседованию/Решение задач.md",
+    "0_Готовимся к собеседованию/Решение задач",
+    "999997_work",
+    "2_ETL",
+    "2_ETL/Impala",
+    "999998_books/Python_и_анализ_данных_У_Маккинни.pdf",
+    "999998_books/Шаблоны_корпоративных_приложений_М_Фаулер.pdf",
+    "999998_books/Designing_data_intensive_applications_M_Kleppmann.pdf",
+    "999998_books/Оптимизация_запросов_в_postgresql_Г_Домбровская_Б_Новиков_А_Бейликова.pdf",
+    "1_DataBase/Greenplum/Вставка данных пакетами из NIFI в GP/Pasted image 20240828202219.png",
+    "Заметки для дырявой головы.canvas",
+    "999999_Images/Visual_SQL_JOINS_orig.jpg",
+    "999999_Images/Pasted image 20241126183229.png",
+    "999999_Images/Pasted image 20241126181953.png",
+    "999999_Images/Pasted image 20241120170239.png",
+    "999999_Images/Pasted image 20241002183313.png",
+    "999999_Images/Pasted image 20250714233144.png"
+  ]
+}

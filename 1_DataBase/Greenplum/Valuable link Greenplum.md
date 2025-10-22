@@ -1,3 +1,5 @@
+[Модель данных](https://docs.arenadata.io/ru/ADB/current/concept/data-model)
+[Оптимизация хранения данных в Greenplum](https://habr.com/ru/companies/neoflex/articles/780486/)
 [Postgres Professional выпустила в свободном доступе книгу «PostgreSQL 16 изнутри»](https://habr.com/ru/news/822853/)
 [Объяснение заголовков логов](https://docs.vmware.com/en/VMware-Greenplum/7/greenplum-database/security-guide-topics-Auditing.html)
 [Разработка серверной части приложений PostgreSQL 16.Базовый курс](https://postgrespro.ru/education/courses/DEV1)

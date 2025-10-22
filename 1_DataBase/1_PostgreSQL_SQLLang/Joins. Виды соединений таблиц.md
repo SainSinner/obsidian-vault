@@ -1,1 +1,0 @@
-![[Visual_SQL_JOINS_orig.jpg]]
