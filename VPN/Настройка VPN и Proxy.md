@@ -1,13 +1,13 @@
 Актуальный прокси-сервер с портом к которому стучаться
 ```
-45.11.24.196:3128
+45.11.**.***:****
 ```
 
 **Сейчас настроен сервер Outline на моем немецком VPS, для подключения Outline Manager к нему, нужно использовать следующий JSON**
 ```json
 {
-"apiUrl":"https://45.11.24.196:46096/L0o2JcPBiQSM0SZoGgAZbQ",
-"certSha256":"9BB647AE8AB5CB71623447358033CEE74069B8963D39488B67E37383B48F00D6"
+"apiUrl":"https://45.11.**.***:*****/L0o2JcPBiQSM0SZoGgAZbQ",
+"certSha256":"******"
 }
 ```
 
@@ -45,7 +45,7 @@ max_filedescriptors 5000
 cache_swap_high 95
 cache_swap_low 80
 ```
-![[Pasted image 20250427114933.png]]
+![[Pasted image 20251022132636.png]]
 
 Рестарт squid и чек статуса
 ```

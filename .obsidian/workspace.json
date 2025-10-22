@@ -10,18 +10,35 @@
           {
             "id": "097988870d084a81",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAC/Как настроить свой MAC.md",
+                "file": "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "0_Полезные вопросы по GreenPlum Собесу"
+            }
+          },
+          {
+            "id": "ffce04e15365cd92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VPN/Настройка VPN и Proxy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Как настроить свой MAC"
+              "title": "Настройка VPN и Proxy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,14 +71,14 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Поиск"
             }
           },
           {
@@ -78,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 200
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -164,8 +181,82 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "097988870d084a81",
+  "floating": {
+    "id": "823e60ff48ed2241",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9527521931759116",
+        "type": "window",
+        "children": [
+          {
+            "id": "8da504112af44398",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6362781ad0c2ce00",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "0_Готовимся к собеседованию/0.canvas",
+                    "viewState": {
+                      "x": 1964.5861616225795,
+                      "y": -1072.266691033941,
+                      "zoom": -2.5604933548861077
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "0"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 8,
+        "y": 47,
+        "width": 843,
+        "height": 979,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "ffce04e15365cd92",
   "lastOpenFiles": [
+    "Pasted image 20251022132636.png",
+    "VPN/ASG VPN.md",
+    "Pasted image 20251022131413.png",
+    "Pasted image 20251022131318.png",
+    "Pasted image 20251022131258.png",
+    "Pasted image 20251022131032.png",
+    "1_DataBase/Greenplum/Ключи..md",
+    "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
+    "0_Готовимся к собеседованию/0.canvas",
+    "1_DataBase/Greenplum/Сжатие данных.md",
+    "1_DataBase/Greenplum/Запросы и команды Greenplum.md",
+    "1_DataBase/Greenplum/Индексы.md",
+    "1_DataBase/Greenplum/Партиционирование.md",
+    "1_DataBase/Greenplum/Распределение данных.md",
+    "1_DataBase/Greenplum/Таблицы.md",
+    "1_DataBase/Greenplum/Valuable link Greenplum.md",
+    "1_DataBase/Greenplum/Data Motion.md",
+    "Pasted image 20251021230834.png",
+    "Pasted image 20251021132711.png",
+    "Pasted image 20251021132623.png",
+    "1_DataBase/Greenplum/Рабочие заметки/Вставка данных пакетами из NIFI в GP/Pasted image 20240828202219.png",
+    "1_DataBase/Greenplum/Рабочие заметки/Вставка данных пакетами из NIFI в GP/Вставка данных пакетами из NIFI в GP.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Раздача прав, создание роли и раздача ролей.md",
+    "1_DataBase/Greenplum/Рабочие заметки/CSV файл используя EXTERNAL TABLE. gpfdist утилита.md",
+    "1_DataBase/Greenplum/Рабочие заметки/uuid в Greenplum.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
+    "1_DataBase/Greenplum/Рабочие заметки",
+    "1_DataBase/Greenplum/Рабочие заметки/Работа с партициями в запросах.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Просмотр определенных строк с ограничением прав у пользователей.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Отличие numeric от double precision.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Отладка процедуры в Greenplum и Posgresql.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Курс_Разработка серверной части приложений PostgreSQL 16.Базовый курс.md",
     "MAC/Как настроить свой MAC.md",
     "Pasted image 20251021093511.png",
     "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
@@ -174,45 +265,14 @@
     "Untitled.canvas",
     "999997_work/ASG/Концепция import, export, input, output представлений в Chicago (MSSQL).md",
     "999998_books/Топ вопросы для Data Engineer.pdf",
-    "1_DataBase/1_PostgreSQL_SQLLang/Анализ запросов.md",
-    "0_Готовимся к собеседованию/Решение задач/Python. Algo.md",
-    "0_Готовимся к собеседованию/Решение задач/Python. Data data engineering.md",
-    "2_ETL/Impala/Impala. теория. (2).md",
-    "0_Готовимся к собеседованию/Решение задач/SQL.md",
-    "0_Готовимся к собеседованию/Решение задач/Архитектура.md",
     "0_Готовимся к собеседованию/Решение задач",
-    "0_Готовимся к собеседованию/0.canvas",
-    "Redis/Redis. теория.md",
-    "999997_work/ASG/Optimacros/Добавить столбец num необходимый для отслеживания.md",
-    "999997_work/ASG/Optimacros/Создание представления куба, фильтрация представления и скрытие столбцов.md",
-    "999997_work/ASG/Optimacros/row_numerator делал алексей как демонстрацию обновления строк для оптимакроса.md",
-    "999997_work/ASG/Chiсago/дополнительные атрибуты.md",
-    "999997_work/ASG/37123_Факты sell-in 1С - Optimacros/Ключ 19 отчета.md",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/Сопоставление работы тесте и прода.md",
     "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/Pasted image 20240902170211.png",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/Pasted image 20240829191054.png",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/Pasted image 20240829190738.png",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/Pasted image 20240829190438.png",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/Pasted image 20240829190203.png",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/Pasted image 20240829183606.png",
-    "999997_work/ASG/31595_Справочник сотрудников в Чикаго. Загрузка данных из 1С ЗУП/Условие.md",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures/36337_Не выгружается SKU в opt_export.erp_nomenclatures.md",
-    "999997_work/ASG/1C/узнать тип данных у регистра.md",
-    "999997_work/ASG/1C/импорт и экспорт объектов из 1с.md",
-    "999997_work/ASG/1C/Ссылки на обработки.md",
-    "999997_work/ASG/1C/Отладка HTTP-сервиса в 1С.md",
-    "999997_work/ASG/1C/Без названия.md",
-    "999997_work/ASG/1C/1C.md",
     "999997_work/ASG/Optimacros",
     "999997_work/ASG/Chiсago",
     "999997_work/ASG/37123_Факты sell-in 1С - Optimacros",
     "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures",
     "999997_work/ASG/31595_Справочник сотрудников в Чикаго. Загрузка данных из 1С ЗУП",
     "999997_work/ASG/1C",
-    "999997_work/SBER",
-    "1_DataBase/Greenplum/Вставка данных пакетами из NIFI в GP/Pasted image 20240828202219.png",
-    "Заметки для дырявой головы.canvas",
-    "999999_Images/Visual_SQL_JOINS_orig.jpg",
-    "999999_Images/Pasted image 20241126183229.png"
+    "Заметки для дырявой головы.canvas"
   ]
 }
