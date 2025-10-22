@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "e14c87aea1c05e69",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c6406013a65e903",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "097988870d084a81",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "0_Полезные вопросы по GreenPlum Собесу"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0186e386ae5ea08",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede244ccb0e37e86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "822df6e08e5bf89f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "de51cfe7951dbcd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "76eaf993aa1286d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "522fd2f53318f02e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b3c29a676bc5bef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aac95ad6876e7b7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Greenplum/Полезные вопросы по GreenPlum.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Полезные вопросы по GreenPlum"
+            }
+          },
+          {
+            "id": "1f23035a92d18024",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Динамическая генерация условия"
+            }
+          },
+          {
+            "id": "6a0a18e5bb40bf46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "3cd3d5e6d5b3d720",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Greenplum/Динамическая генерация условия.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Динамическая генерация условия"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "floating": {
+    "id": "823e60ff48ed2241",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9527521931759116",
+        "type": "window",
+        "children": [
+          {
+            "id": "8da504112af44398",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6362781ad0c2ce00",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "0_Готовимся к собеседованию/0.canvas",
+                    "viewState": {
+                      "x": 1964.5861616225795,
+                      "y": -1072.266691033941,
+                      "zoom": -2.5604933548861077
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "0"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 8,
+        "y": 47,
+        "width": 843,
+        "height": 979,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "097988870d084a81",
+  "lastOpenFiles": [
+    "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
+    "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
+    "VPN/ASG VPN.md",
+    "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
+    "Расписание дня..md",
+    "999999_Images/Pasted image 20251021132623.png",
+    "999999_Images/Pasted image 20251021132711.png",
+    "999999_Images/Pasted image 20251021230834.png",
+    "999999_Images/Pasted image 20251022131318.png",
+    "999999_Images/Pasted image 20251022131413.png",
+    "999999_Images/Pasted image 20251022132636.png",
+    "Pasted image 20251022131032.png",
+    "Pasted image 20251022131258.png",
+    "Pasted image 20251021093511.png",
+    "VPN/Настройка VPN и Proxy.md",
+    "1_DataBase/Greenplum/Ключи..md",
+    "0_Готовимся к собеседованию/0.canvas",
+    "1_DataBase/Greenplum/Сжатие данных.md",
+    "1_DataBase/Greenplum/Запросы и команды Greenplum.md",
+    "1_DataBase/Greenplum/Индексы.md",
+    "1_DataBase/Greenplum/Партиционирование.md",
+    "1_DataBase/Greenplum/Распределение данных.md",
+    "1_DataBase/Greenplum/Таблицы.md",
+    "1_DataBase/Greenplum/Valuable link Greenplum.md",
+    "1_DataBase/Greenplum/Data Motion.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Вставка данных пакетами из NIFI в GP/Pasted image 20240828202219.png",
+    "1_DataBase/Greenplum/Рабочие заметки/Вставка данных пакетами из NIFI в GP/Вставка данных пакетами из NIFI в GP.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Раздача прав, создание роли и раздача ролей.md",
+    "1_DataBase/Greenplum/Рабочие заметки/CSV файл используя EXTERNAL TABLE. gpfdist утилита.md",
+    "1_DataBase/Greenplum/Рабочие заметки/uuid в Greenplum.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
+    "1_DataBase/Greenplum/Рабочие заметки",
+    "1_DataBase/Greenplum/Рабочие заметки/Работа с партициями в запросах.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Просмотр определенных строк с ограничением прав у пользователей.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Отличие numeric от double precision.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Отладка процедуры в Greenplum и Posgresql.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Курс_Разработка серверной части приложений PostgreSQL 16.Базовый курс.md",
+    "MAC/Как настроить свой MAC.md",
+    "MAC",
+    "Untitled.canvas",
+    "999998_books/Топ вопросы для Data Engineer.pdf",
+    "0_Готовимся к собеседованию/Решение задач",
+    "999997_work/ASG/Optimacros",
+    "999997_work/ASG/Chiсago",
+    "999997_work/ASG/37123_Факты sell-in 1С - Optimacros",
+    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures",
+    "999997_work/ASG/31595_Справочник сотрудников в Чикаго. Загрузка данных из 1С ЗУП",
+    "999997_work/ASG/1C",
+    "Заметки для дырявой головы.canvas"
+  ]
+}
