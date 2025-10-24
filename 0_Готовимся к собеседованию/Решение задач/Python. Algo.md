@@ -1,3 +1,54 @@
+### Анаграммы
+Две строки являются анаграммами, если они состоят из одного и того же множества символов с учетом числа повторов каждого из них
+Доп. условие: обе строки из английских символов в lower-case.
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Input: s = "ab", t = "ca"
+Output: false
+
+```python
+# Ответ кандидата с сортировкой:
+
+class Solution:  
+    def isAnagram(self, s, t):  
+        if len(s) != len(t):  
+            return False  
+  
+        s_sorted = sorted(s)  
+        t_sorted = sorted(t)  
+  
+        return s_sorted == t_sorted  
+  
+print(Solution().isAnagram("anagram", "nagaram"))  
+print(Solution().isAnagram("ab", "ca"))
+
+# Ответ кандидата с словарем:
+# Этот более предпочтителен по памяти
+
+class Solution:  
+    def isAnagram(self, s, t):  
+        if len(s) != len(t):  
+            return False  
+  
+        count = {}  
+  
+        for char in s:  
+            count[char] = count.get(char, 0) + 1  
+  
+        for char in t:  
+            if char not in count:  
+                return False  
+            count[char] -= 1  
+            if count[char] == 0:  
+                del count[char]  
+  
+        return len(count) == 0  
+  
+print(Solution().isAnagram("anagram", "nagaram"))  
+print(Solution().isAnagram("ab", "ca"))
+```
+
 ### Пузырьковая сортировка
 
 ```python
@@ -168,4 +219,50 @@ class Solution(object):
 solution = Solution()
 result = solution.longestPalindrome("abbafabba")
 print(result)
+```
+
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+Given a string `s`, find the length of the **longest** **substring** without duplicate characters.
+
+**Example 1:**
+
+**Input:** s = "abcabcbb"
+**Output:** 3
+**Explanation:** The answer is "abc", with the length of 3. Note that `"bca"` and `"cab"` are also correct answers.
+
+**Example 2:**
+
+**Input:** s = "bbbbb"
+**Output:** 1
+**Explanation:** The answer is "b", with the length of 1.
+
+**Example 3:**
+
+**Input:** s = "pwwkew"
+**Output:** 3
+**Explanation:** The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+```python
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+
+        if len(s) == 0:
+            return 0
+
+        answer = []
+
+        for i in range(len(s)):
+            s_array = []
+            for j in range(i, len(s)):
+                if s[j] not in s_array:
+                    s_array.append(s[j])
+                else:
+                    break
+            flag = 0
+            answer.append("".join(s_array))
+            s_array.clear()
+
+        return int(max(map(len, answer)))
 ```

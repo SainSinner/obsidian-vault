@@ -5,6 +5,90 @@ https://postgrespro.ru/docs/postgrespro/current/functions-window
 
 ![[Задачи с собеседований.sql]]
 
+## В target добавить данные из temp
+
+В target добавить данные из temp
+
+target
+
+|   id |       inn |   summa |   debet | dt         |
+|    0 |   3333333 |    2003 |       1 | 2025-05-05 |
+|    1 | 111111111 |    3170 |       0 | 2025-06-26 |
+|    2 |   3333333 |    7330 |       1 | 2025-06-02 |
+|    3 |  00000000 |    9807 |       1 | 2025-07-13 |
+|    4 |  22222222 |    4387 |       0 | 2025-07-23 |
+|    5 | 000000000 |    2003 |       0 | 2025-05-05 |
+|    6 | 222222222 |    3170 |       1 | 2025-06-26 |
+|    7 |  33333333 |    7330 |       0 | 2025-06-02 |
+|    8 | 000000000 |    9807 |       0 | 2025-07-13 |
+|    9 |  33333333 |    4387 |       1 | 2025-07-23 |
+
+temp
+
+|    inn   |   summa |   debet |     dt     |
+| 00000000 |    1628 |       1 | 2025-08-03 |
+|  2222222 |    6038 |       1 | 2025-08-03 |
+| 00000000 |    1628 |       0 | 2025-08-03 |
+|  2222222 |    6038 |       0 | 2025-08-03 |
+
+```sql
+insert into target (id, inn, summa, debet, dt)
+with max_id as (
+    select
+    coalesce(max(id), 0) as max_id
+    from target
+    )
+select
+    t2.max_id + row_umber() over (ORDER BY t1.inn, t1.dt, t1.summa),
+    t1.inn,
+    t1.summa,
+    t1.debet,
+    t1.dt
+from
+    temp as t1 cross max_id as t2
+```
+
+## Нужно получить аналитическую таблицу вида:
+target
+
+|   id |       inn |   summa |   debet | dt         |
+|    0 |   3333333 |    2003 |       1 | 2025-05-05 |
+|    1 | 111111111 |    3170 |       0 | 2025-06-26 |
+|    2 |   3333333 |    7330 |       1 | 2025-06-02 |
+|    3 |  00000000 |    9807 |       1 | 2025-07-13 |
+|    4 |  22222222 |    4387 |       0 | 2025-07-23 |
+|    5 | 000000000 |    2003 |       0 | 2025-05-05 |
+|    6 | 222222222 |    3170 |       1 | 2025-06-26 |
+|    7 |  33333333 |    7330 |       0 | 2025-06-02 |
+|    8 | 000000000 |    9807 |       0 | 2025-07-13 |
+|    9 |  33333333 |    4387 |       1 | 2025-07-23 |
+
+inn    dt_month    send    received    balance    cum_sum
+
+То есть посчитать аггрегаты за месяц для каждого инн, сколько денег было получено, 
+сколько отправлено, баланс, и кумулятивный итог начиная с самого начала истории.
+
+```sql
+WITH monthly_data AS (
+    SELECT
+        inn,
+        DATE_TRUNC('month', dt) AS dt_month,
+        SUM(CASE WHEN debet = 0 THEN summa ELSE 0 END) AS send,
+        SUM(CASE WHEN debet = 1 THEN summa ELSE 0 END) AS received,
+        SUM(CASE WHEN debet = 1 THEN summa ELSE -summa END) AS balance
+    FROM target
+    GROUP BY inn, DATE_TRUNC('month', dt)
+)
+SELECT
+    inn,
+    dt_month,
+    send,
+    received,
+    balance,
+    SUM(balance) OVER (PARTITION BY inn ORDER BY dt_month) AS cum_sum
+FROM monthly_data
+ORDER BY inn, dt_month;
+```
 ## Как работает UION 
 
 Имеем 2 таблицы.
@@ -162,6 +246,7 @@ ORDER BY Indatetime;
 
 ## Количество строк при разных join
 
+![[Pasted image 20251024115221.png]]
 Даны две таблицы T1 (col1, col2) и T2 (col1, col3)
 
 В таблице T1 три записи
@@ -178,7 +263,7 @@ min:3
 max:12
 
 T1 full join T2 on T1.col1 = T2.col1 
-min:7
+min:4
 max:12
 
 T1 cross join T2

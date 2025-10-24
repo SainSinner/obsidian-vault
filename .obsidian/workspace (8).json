@@ -22,26 +22,8 @@
               "icon": "lucide-file",
               "title": "0_Полезные вопросы по GreenPlum Собесу"
             }
-          },
-          {
-            "id": "593ede892e038425",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "0_Готовимся к собеседованию/0.canvas",
-                "viewState": {
-                  "x": 312.61027243783985,
-                  "y": 2439.492363159033,
-                  "zoom": -0.685707474460973
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "0"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,11 +166,50 @@
       "bases:Create new base": false
     }
   },
-  "active": "593ede892e038425",
+  "floating": {
+    "id": "823e60ff48ed2241",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9527521931759116",
+        "type": "window",
+        "children": [
+          {
+            "id": "8da504112af44398",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6362781ad0c2ce00",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "0_Готовимся к собеседованию/0.canvas",
+                    "viewState": {
+                      "x": -67.37043775849867,
+                      "y": 1053.7719512739236,
+                      "zoom": -0.22716002155277465
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "0"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 8,
+        "y": 47,
+        "width": 843,
+        "height": 979,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "6362781ad0c2ce00",
   "lastOpenFiles": [
-    "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
-    "0_Готовимся к собеседованию/0.canvas",
-    "Pasted image 20251024115221.png",
     "Untitled.md",
     "999999_Images/Pasted image 20251022141710.png",
     "999999_Images/Pasted image 20251022141651.png",
@@ -199,14 +220,17 @@
     "Pasted image 20251022141808.png",
     "Pasted image 20251022141710.png",
     "Pasted image 20251022141651.png",
+    "Pasted image 20251022141433.png",
     "1_DataBase/Greenplum/Архитектура ADB.md",
     "1_DataBase/Greenplum/Ключи.md",
     "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
+    "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
     "VPN/ASG VPN.md",
     "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
     "Расписание дня..md",
     "VPN/Настройка VPN и Proxy.md",
     "1_DataBase/Greenplum/Ключи..md",
+    "0_Готовимся к собеседованию/0.canvas",
     "1_DataBase/Greenplum/Сжатие данных.md",
     "1_DataBase/Greenplum/Запросы и команды Greenplum.md",
     "1_DataBase/Greenplum/Индексы.md",
@@ -223,6 +247,7 @@
     "1_DataBase/Greenplum/Рабочие заметки",
     "1_DataBase/Greenplum/Рабочие заметки/Работа с партициями в запросах.md",
     "1_DataBase/Greenplum/Рабочие заметки/Просмотр определенных строк с ограничением прав у пользователей.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Отличие numeric от double precision.md",
     "MAC",
     "Untitled.canvas",
     "999998_books/Топ вопросы для Data Engineer.pdf",
