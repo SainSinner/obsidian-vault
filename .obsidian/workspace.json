@@ -8,40 +8,110 @@
         "type": "tabs",
         "children": [
           {
-            "id": "097988870d084a81",
+            "id": "a2e5ff58a6b6a383",
             "type": "leaf",
             "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "0_Полезные вопросы по GreenPlum Собесу"
-            }
-          },
-          {
-            "id": "593ede892e038425",
-            "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "0_Готовимся к собеседованию/0.canvas",
                 "viewState": {
-                  "x": 312.61027243783985,
-                  "y": 2439.492363159033,
-                  "zoom": -0.685707474460973
+                  "x": 483.32264674607,
+                  "y": 1705.3522351545118,
+                  "zoom": -1.1367399498820308
                 }
               },
+              "pinned": true,
               "icon": "lucide-layout-dashboard",
               "title": "0"
             }
+          },
+          {
+            "id": "189eef5d87103d78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/0_DWH и модель данных/1 OLTP vs OLAP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 OLTP vs OLAP"
+            }
+          },
+          {
+            "id": "50a1dda40f6f3be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/0_DWH и модель данных/1 OLTP vs OLAP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 OLTP vs OLAP"
+            }
+          },
+          {
+            "id": "7aad586f26299c19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/0_DWH и модель данных/0 DWH и модель данных.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0 DWH и модель данных"
+            }
+          },
+          {
+            "id": "13f417d2d31dd166",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/0_DWH и модель данных/10 Слои DWH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 Слои DWH"
+            }
+          },
+          {
+            "id": "7e60395bb8fc1428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/0_DWH и модель данных/ACID принципы транзакции.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ACID принципы транзакции"
+            }
+          },
+          {
+            "id": "0709fb8a883067ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2_ETL/Scala/Scala.основа.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scala.основа"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -64,7 +134,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -98,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 308.5,
+    "collapsed": true
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -175,64 +246,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
     }
   },
-  "active": "593ede892e038425",
+  "active": "0709fb8a883067ac",
   "lastOpenFiles": [
-    "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
+    "Pasted image 20251030065117.png",
+    "Pasted image 20251030064955.png",
+    "999999_Images/Pasted image 20251029142240.png",
     "0_Готовимся к собеседованию/0.canvas",
-    "Pasted image 20251024115221.png",
-    "Untitled.md",
-    "999999_Images/Pasted image 20251022141710.png",
-    "999999_Images/Pasted image 20251022141651.png",
-    "999999_Images/Pasted image 20251022141433.png",
-    "999999_Images/Pasted image 20251022141808.png",
-    "999999_Images/Pasted image 20251022141841.png",
-    "Pasted image 20251022141841.png",
-    "Pasted image 20251022141808.png",
-    "Pasted image 20251022141710.png",
-    "Pasted image 20251022141651.png",
-    "1_DataBase/Greenplum/Архитектура ADB.md",
-    "1_DataBase/Greenplum/Ключи.md",
-    "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
-    "VPN/ASG VPN.md",
-    "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
+    "1_DataBase/0_DWH и модель данных/ACID принципы транзакции.md",
+    "1_DataBase/0_DWH и модель данных/10 Слои DWH.md",
+    "1_DataBase/0_DWH и модель данных/0 DWH и модель данных.md",
+    "1_DataBase/0_DWH и модель данных/5 Нормализация данных.md",
+    "1_DataBase/0_DWH и модель данных/4 Последовательность дизайна DWH.md",
+    "1_DataBase/0_DWH и модель данных/3 Что внутри DWH.md",
+    "1_DataBase/0_DWH и модель данных/1 OLTP vs OLAP.md",
+    "1_DataBase/0_DWH и модель данных/9 Виды SQL.md",
+    "1_DataBase/0_DWH и модель данных/8 EXPLAIN ANALYZE.md",
+    "1_DataBase/0_DWH и модель данных/7 последовательность выполнения запроса SELECT.md",
+    "1_DataBase/0_DWH и модель данных/6 Реляционные и нереляционные базы SQL и no-SQL.md",
+    "999998_books/Топ вопросы для Data Engineer.pdf",
+    "999998_books/Постигая_Agile_Э_Стеллман.pdf",
+    "999999_Images/Pasted image 20251029202233.png",
+    "999999_Images/Pasted image 20251029184421.png",
+    "999999_Images/Pasted image 20251029183153.png",
+    "2_ETL/Kafka/Взаимодействие продюсеров и консьюмеров с брокером Kafka.md",
+    "2_ETL/Kafka/Проектирование топиков и потоков данных.md",
+    "999999_Images/Pasted image 20251029173553.png",
+    "2_ETL/Kafka/Valuable links Kafka.md",
+    "2_ETL/Kafka/Различие Kafka, RabbitMQ.md",
+    "2_ETL/Kafka/Команды для работы в ubuntu.md",
+    "2_ETL/Kafka/Запустить в Docker.md",
+    "2_ETL/Kafka/Гарантия доставки сообщений в Kafka.md",
+    "2_ETL/Kafka/Debezium. теория.md",
+    "0_Готовимся к собеседованию/Теория для собеседований.SQL.md",
+    "0_Готовимся к собеседованию/Интересные технологии которые стоит попробовать.md",
+    "999999_Images/Pasted image 20251029144451.png",
+    "999999_Images/Pasted image 20251029143655.png",
+    "999999_Images/Pasted image 20251029143405.png",
+    "999999_Images/Pasted image 20251029143207.png",
+    "0_Готовимся к собеседованию/Решение задач/SQL.md",
+    "0_Готовимся к собеседованию/Теория для собеседований.Python.md",
     "Расписание дня..md",
-    "VPN/Настройка VPN и Proxy.md",
-    "1_DataBase/Greenplum/Ключи..md",
-    "1_DataBase/Greenplum/Сжатие данных.md",
-    "1_DataBase/Greenplum/Запросы и команды Greenplum.md",
-    "1_DataBase/Greenplum/Индексы.md",
-    "1_DataBase/Greenplum/Партиционирование.md",
-    "1_DataBase/Greenplum/Распределение данных.md",
-    "1_DataBase/Greenplum/Таблицы.md",
-    "1_DataBase/Greenplum/Valuable link Greenplum.md",
-    "1_DataBase/Greenplum/Data Motion.md",
-    "1_DataBase/Greenplum/Рабочие заметки/Вставка данных пакетами из NIFI в GP/Вставка данных пакетами из NIFI в GP.md",
-    "1_DataBase/Greenplum/Рабочие заметки/Раздача прав, создание роли и раздача ролей.md",
-    "1_DataBase/Greenplum/Рабочие заметки/CSV файл используя EXTERNAL TABLE. gpfdist утилита.md",
-    "1_DataBase/Greenplum/Рабочие заметки/uuid в Greenplum.md",
-    "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
+    "Untitled.md",
+    "999998_books/Dama_dmbok_свод_знаний_по_управлению_данными.pdf",
+    "999998_books/Computer_science_для_програмиста_самоучки_К_Альтхофф.pdf",
+    "999998_books/Алгоритмы_построение_и_анализ_Т_Кормен.pdf",
+    "2_ETL/Scala",
     "1_DataBase/Greenplum/Рабочие заметки",
-    "1_DataBase/Greenplum/Рабочие заметки/Работа с партициями в запросах.md",
-    "1_DataBase/Greenplum/Рабочие заметки/Просмотр определенных строк с ограничением прав у пользователей.md",
     "MAC",
     "Untitled.canvas",
-    "999998_books/Топ вопросы для Data Engineer.pdf",
     "0_Готовимся к собеседованию/Решение задач",
     "999997_work/ASG/Optimacros",
-    "999997_work/ASG/Chiсago",
-    "999997_work/ASG/37123_Факты sell-in 1С - Optimacros",
-    "999997_work/ASG/36337_Не выгружается SKU в opt_export.erp_nomenclatures",
-    "999997_work/ASG/31595_Справочник сотрудников в Чикаго. Загрузка данных из 1С ЗУП",
-    "999997_work/ASG/1C",
     "Заметки для дырявой головы.canvas"
   ]
 }

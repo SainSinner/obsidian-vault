@@ -1,3 +1,5 @@
+В DWH может быть три слоя (в рамках хранилища они делятся на схемы).
+![[Pasted image 20250915112929.png]]
 https://bigdataschool.ru/blog/lsa-data-warehouse-architecture/
 Классически LSA реализуется в виде следующих уровней **[3]**:
 
