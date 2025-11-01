@@ -1,5 +1,8 @@
 # MAC
 `scutil --dns` - в терминале выдаст DNS сервера на которые настроены
+`sudo networksetup -getdnsservers "Wi-Fi"` - покажет dns сервера настроенные на этом устройстве или вернет *There aren't any DNS Servers set on Wi-Fi* , что будет значить что mac использует dns сервера роутера к которому подключен
+`sudo networksetup -setdnsservers "Wi-Fi" "empty"` - очистить dns сервера для wi-fi на mac
+`sudo networksetup -setdnsservers "Wi-Fi" 8.8.8.8 1.1.1.1` - установить dns сервера для wi-fi на mac (в данном случае dns сервера google и cloudflare)
 
 `10.115` - это ip dns сервера АСГ
 `192.168` - это ip моего роутера

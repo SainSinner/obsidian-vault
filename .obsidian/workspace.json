@@ -88,12 +88,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_DataBase/0_DWH и модель данных/ACID принципы транзакции.md",
+                "file": "VPN/ASG VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACID принципы транзакции"
+              "title": "ASG VPN"
             }
           },
           {
@@ -102,16 +102,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_ETL/Scala/Scala.основа.md",
+                "file": "VPN/ASG VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scala.основа"
+              "title": "ASG VPN"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -168,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5,
-    "collapsed": true
+    "width": 308.5
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -255,13 +254,16 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "0709fb8a883067ac",
+  "active": "7e60395bb8fc1428",
   "lastOpenFiles": [
+    "VPN/Настройка VPN и Proxy.md",
+    "1_DataBase/0_DWH и модель данных/ACID принципы транзакции.md",
+    "VPN/ASG VPN.md",
+    "2_ETL/Scala/Scala.основа.md",
     "Pasted image 20251030065117.png",
     "Pasted image 20251030064955.png",
     "999999_Images/Pasted image 20251029142240.png",
     "0_Готовимся к собеседованию/0.canvas",
-    "1_DataBase/0_DWH и модель данных/ACID принципы транзакции.md",
     "1_DataBase/0_DWH и модель данных/10 Слои DWH.md",
     "1_DataBase/0_DWH и модель данных/0 DWH и модель данных.md",
     "1_DataBase/0_DWH и модель данных/5 Нормализация данных.md",
@@ -291,11 +293,8 @@
     "999999_Images/Pasted image 20251029144451.png",
     "999999_Images/Pasted image 20251029143655.png",
     "999999_Images/Pasted image 20251029143405.png",
-    "999999_Images/Pasted image 20251029143207.png",
     "0_Готовимся к собеседованию/Решение задач/SQL.md",
     "0_Готовимся к собеседованию/Теория для собеседований.Python.md",
-    "Расписание дня..md",
-    "Untitled.md",
     "999998_books/Dama_dmbok_свод_знаний_по_управлению_данными.pdf",
     "999998_books/Computer_science_для_програмиста_самоучки_К_Альтхофф.pdf",
     "999998_books/Алгоритмы_построение_и_анализ_Т_Кормен.pdf",
