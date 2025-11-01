@@ -45,7 +45,9 @@
 		{"id":"41c7524834a7e208","type":"file","file":"1_DataBase/0_DWH и модель данных/ACID принципы транзакции.md","x":2000,"y":-4560,"width":440,"height":640},
 		{"id":"38eff65ed60901f2","type":"file","file":"1_DataBase/0_DWH и модель данных/6 Реляционные и нереляционные базы SQL и no-SQL.md","x":2270,"y":-3780,"width":660,"height":840},
 		{"id":"08c4b45cc6cd1231","type":"file","file":"1_DataBase/0_DWH и модель данных/4 Последовательность дизайна DWH.md","x":2970,"y":-3780,"width":660,"height":840},
-		{"id":"5903ac70e5dc841e","type":"file","file":"1_DataBase/0_DWH и модель данных/9 Виды SQL.md","x":2490,"y":-4560,"width":440,"height":640}
+		{"id":"5903ac70e5dc841e","type":"file","file":"1_DataBase/0_DWH и модель данных/9 Виды SQL.md","x":2490,"y":-4560,"width":440,"height":640},
+		{"id":"ffbbc1c8c3f48207","type":"file","file":"1_DataBase/ClickHouse/Движок таблицы (тип таблицы).md","x":120,"y":-1960,"width":640,"height":640},
+		{"id":"00b1ab3e713a770d","type":"file","file":"1_DataBase/ClickHouse/Индексы в ClickHouse.md","x":800,"y":-1960,"width":640,"height":640}
 	],
 	"edges":[
 		{"id":"2525a8d0af7554a3","fromNode":"cdbb65fd7b87b329","fromSide":"bottom","toNode":"2b65efc1bf0e95b9","toSide":"top"},
