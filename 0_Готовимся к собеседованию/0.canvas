@@ -12,7 +12,7 @@
 		{"id":"0332dce85f281957","type":"text","text":"Доработать эту тему","x":-1000,"y":460,"width":403,"height":118,"color":"3"},
 		{"id":"041a892acd3f9047","type":"text","text":"Доработать эту тему.\nДобавить анализ алгоритма:\nГраничные случаи, сложность алгоритма, оптимизация решения.","x":-1000,"y":1360,"width":403,"height":118,"color":"3"},
 		{"id":"f118795712a70105","type":"file","file":"2_ETL/Kafka/Проектирование топиков и потоков данных.md","x":840,"y":-360,"width":660,"height":760},
-		{"id":"4f3ec6be08616be0","type":"file","file":"2_ETL/Kafka/Debezium. теория.md","x":1550,"y":-360,"width":660,"height":760},
+		{"id":"4f3ec6be08616be0","type":"file","file":"2_ETL/Kafka/Debezium/Debezium. теория.md","x":1550,"y":-360,"width":660,"height":760},
 		{"id":"0a3c55602228862c","type":"file","file":"2_ETL/Kafka/Различие Kafka, RabbitMQ.md","x":2260,"y":-360,"width":660,"height":760},
 		{"id":"0801b21baad64a51","type":"file","file":"2_ETL/Kafka/Гарантия доставки сообщений в Kafka.md","x":143,"y":-360,"width":660,"height":760},
 		{"id":"5f2e7b36700f8b69","type":"file","file":"2_ETL/Kafka/Взаимодействие продюсеров и консьюмеров с брокером Kafka.md","x":-560,"y":-360,"width":660,"height":760},

@@ -32,12 +32,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Путешествия/Дагестан.md",
+                "file": "2_ETL/Kafka/Debezium/Debezium. Пример настройки..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Дагестан"
+              "title": "Debezium. Пример настройки."
             }
           }
         ],
@@ -186,16 +186,20 @@
   },
   "active": "c7911565b66793c3",
   "lastOpenFiles": [
-    "Путешествия/Намибия.md",
+    "2_ETL/Python/Алгоритмы.md",
+    "0_Готовимся к собеседованию/0.canvas",
+    "2_ETL/Kafka/Debezium/Debezium. Пример настройки..md",
+    "2_ETL/Kafka/Debezium/Debezium. теория.md",
+    "2_ETL/Kafka/Debezium",
+    "Docker/Полезные команды.md",
     "Путешествия/Дагестан.md",
+    "Путешествия/Намибия.md",
     "999998_books/174-kak-hochet-zhenschina.epub",
     "2_ETL/Python/Заметки.md",
     "999999_Images/Pasted image 20251030064955.png",
     "999999_Images/Pasted image 20251105193210.png",
     "2_ETL/Python/Python Workshop.md",
     "2_ETL/Python/PyCharm.md",
-    "2_ETL/Python/Алгоритмы.md",
-    "0_Готовимся к собеседованию/0.canvas",
     "1_DataBase/ClickHouse/Индексы в ClickHouse.md",
     "Путешествия/ЮАР (Кейптайун).md",
     "VPN/ASG VPN.md",
@@ -214,15 +218,11 @@
     "1_DataBase/0_DWH и модель данных/3 Что внутри DWH.md",
     "1_DataBase/0_DWH и модель данных/9 Виды SQL.md",
     "1_DataBase/0_DWH и модель данных/8 EXPLAIN ANALYZE.md",
-    "1_DataBase/0_DWH и модель данных/7 последовательность выполнения запроса SELECT.md",
-    "1_DataBase/0_DWH и модель данных/6 Реляционные и нереляционные базы SQL и no-SQL.md",
     "999998_books/Топ вопросы для Data Engineer.pdf",
     "999998_books/Постигая_Agile_Э_Стеллман.pdf",
     "999999_Images/Pasted image 20251029202233.png",
     "999999_Images/Pasted image 20251029184421.png",
     "999999_Images/Pasted image 20251029183153.png",
-    "2_ETL/Kafka/Взаимодействие продюсеров и консьюмеров с брокером Kafka.md",
-    "2_ETL/Kafka/Проектирование топиков и потоков данных.md",
     "999999_Images/Pasted image 20251029173553.png",
     "999999_Images/Pasted image 20251029144451.png",
     "999999_Images/Pasted image 20251029143655.png",
@@ -233,7 +233,6 @@
     "1_DataBase/Greenplum/Рабочие заметки",
     "MAC",
     "Untitled.canvas",
-    "0_Готовимся к собеседованию/Решение задач",
     "Заметки для дырявой головы.canvas"
   ]
 }
