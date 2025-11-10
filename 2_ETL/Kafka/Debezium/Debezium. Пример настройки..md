@@ -1,7 +1,16 @@
 Пример настройки
 https://habr.com/ru/companies/flant/articles/523510/?code=d895b61fbf334b70b974a65771358068&state=o8ig82vZzwtujzdMZS9vSJzO&hl=ru
 
-### Пример коннектора который я настраивал
+### Пример настроек для создания коннектора который я настраивал
+
+Endpoint к которому нужно обратиться
+
+```url
+http://localhost:8083/connectors
+```
+
+Контент запроса
+
 ```json
 {  
   "name": "postgres-backend-debezium-connector",  
@@ -31,6 +40,9 @@ https://habr.com/ru/companies/flant/articles/523510/?code=d895b61fbf334b70b974a6
   }  
 }
 ```
+
+
+
 - **name**: уникальное имя коннектора в Kafka Connect.
     
 - **connector.class**: класс коннектора Debezium для PostgreSQL (`io.debezium.connector.postgresql.PostgresConnector`).
@@ -76,3 +88,15 @@ https://habr.com/ru/companies/flant/articles/523510/?code=d895b61fbf334b70b974a6
 - **include.schema.changes**: указывает, включать ли изменения схемы в поток данных (`false` — не включать).
     
 - **snapshot.mode**: режим начального снимка базы данных (`initial` — сделать snapshot при первом запуске).
+
+### Список коннекторов
+
+```url
+http://localhost:8083/connectors
+```
+
+### Статус коннектора
+
+```url
+http://localhost:8083/connectors/postgres-backend-debezium-connector/status
+```
