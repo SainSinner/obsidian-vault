@@ -32,12 +32,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_ETL/DBT/DBT. Пример настройки одной модели.md",
+                "file": "2_ETL/Python/PySpark/Операторы для Spark.Airflow Spark Provider.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBT. Пример настройки одной модели"
+              "title": "Операторы для Spark.Airflow Spark Provider"
             }
           }
         ],
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 396.5
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -186,8 +186,16 @@
   },
   "active": "bd40841344762abf",
   "lastOpenFiles": [
-    "MAC/Как настроить свой MAC.md",
+    "2_ETL/Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
+    "2_ETL/Python/PySpark/Операторы для Spark.Airflow Spark Provider.md",
+    "2_ETL/Python/Алгоритмы.md",
+    "2_ETL/Python/PySpark/SPARK SQL и SPARK функции.md",
+    "2_ETL/Python/PySpark/Сравнение типов данных, что когда использовать.md",
+    "2_ETL/Python/PySpark/Работа с запросами.md",
+    "2_ETL/Python/PySpark/Основа.md",
+    "2_ETL/Python/PySpark/Как читать и писать разные виды файлов.md",
     "2_ETL/DBT/DBT. Пример настройки одной модели.md",
+    "MAC/Как настроить свой MAC.md",
     "2_ETL/DBT",
     "999999_Images/Pasted image 20251111084959.png",
     "0_Готовимся к собеседованию/0.canvas",
@@ -204,7 +212,6 @@
     "999999_Images/Pasted image 20251111090325.png",
     "999999_Images/Pasted image 20251111085042.png",
     "2_ETL/Kafka/Debezium/Debezium. Пример настройки..md",
-    "2_ETL/Python/Алгоритмы.md",
     "2_ETL/Kafka/Debezium/Debezium. теория.md",
     "2_ETL/Kafka/Debezium",
     "Docker/Полезные команды.md",
@@ -215,13 +222,6 @@
     "999999_Images/Pasted image 20251030064955.png",
     "999999_Images/Pasted image 20251105193210.png",
     "2_ETL/Python/Python Workshop.md",
-    "2_ETL/Python/PyCharm.md",
-    "1_DataBase/ClickHouse/Индексы в ClickHouse.md",
-    "Путешествия/ЮАР (Кейптайун).md",
-    "2_ETL/Scala/Scala.основа.md",
-    "1_DataBase/ClickHouse/Движок таблицы (тип таблицы).md",
-    "1_DataBase/ClickHouse/Что такое ClickHouse.md",
-    "1_DataBase/0_DWH и модель данных/1 OLTP vs OLAP.md",
     "999999_Images/Pasted image 20251030065117.png",
     "999999_Images/Pasted image 20251029142240.png",
     "999998_books/Топ вопросы для Data Engineer.pdf",
