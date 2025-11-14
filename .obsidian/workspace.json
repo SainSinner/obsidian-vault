@@ -32,12 +32,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAC/Как настроить свой MAC.md",
+                "file": "2_ETL/DBT/DBT. Пример настройки одной модели.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Как настроить свой MAC"
+              "title": "DBT. Пример настройки одной модели"
             }
           }
         ],
@@ -186,6 +186,9 @@
   },
   "active": "bd40841344762abf",
   "lastOpenFiles": [
+    "MAC/Как настроить свой MAC.md",
+    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
+    "2_ETL/DBT",
     "999999_Images/Pasted image 20251111084959.png",
     "0_Готовимся к собеседованию/0.canvas",
     "VPN/ASG VPN.md",
@@ -219,7 +222,6 @@
     "1_DataBase/ClickHouse/Движок таблицы (тип таблицы).md",
     "1_DataBase/ClickHouse/Что такое ClickHouse.md",
     "1_DataBase/0_DWH и модель данных/1 OLTP vs OLAP.md",
-    "1_DataBase/0_DWH и модель данных/ACID принципы транзакции.md",
     "999999_Images/Pasted image 20251030065117.png",
     "999999_Images/Pasted image 20251029142240.png",
     "999998_books/Топ вопросы для Data Engineer.pdf",
@@ -231,7 +233,6 @@
     "999998_books/Алгоритмы_построение_и_анализ_Т_Кормен.pdf",
     "2_ETL/Scala",
     "1_DataBase/Greenplum/Рабочие заметки",
-    "MAC",
     "Untitled.canvas",
     "Заметки для дырявой головы.canvas"
   ]
