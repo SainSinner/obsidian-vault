@@ -32,12 +32,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_ETL/Python/PySpark/Операторы для Spark.Airflow Spark Provider.md",
+                "file": "2_ETL/DBT/DBT. теория.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Операторы для Spark.Airflow Spark Provider"
+              "title": "DBT. теория"
             }
           }
         ],
@@ -186,15 +186,16 @@
   },
   "active": "bd40841344762abf",
   "lastOpenFiles": [
-    "2_ETL/Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
+    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
+    "2_ETL/DBT/DBT. теория.md",
     "2_ETL/Python/PySpark/Операторы для Spark.Airflow Spark Provider.md",
+    "2_ETL/Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
     "2_ETL/Python/Алгоритмы.md",
     "2_ETL/Python/PySpark/SPARK SQL и SPARK функции.md",
     "2_ETL/Python/PySpark/Сравнение типов данных, что когда использовать.md",
     "2_ETL/Python/PySpark/Работа с запросами.md",
     "2_ETL/Python/PySpark/Основа.md",
     "2_ETL/Python/PySpark/Как читать и писать разные виды файлов.md",
-    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
     "MAC/Как настроить свой MAC.md",
     "2_ETL/DBT",
     "999999_Images/Pasted image 20251111084959.png",
@@ -221,7 +222,6 @@
     "2_ETL/Python/Заметки.md",
     "999999_Images/Pasted image 20251030064955.png",
     "999999_Images/Pasted image 20251105193210.png",
-    "2_ETL/Python/Python Workshop.md",
     "999999_Images/Pasted image 20251030065117.png",
     "999999_Images/Pasted image 20251029142240.png",
     "999998_books/Топ вопросы для Data Engineer.pdf",
