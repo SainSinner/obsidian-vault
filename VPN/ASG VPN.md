@@ -1,3 +1,4 @@
+192.168.1.1
 # MAC
 `scutil --dns` - в терминале выдаст DNS сервера на которые настроены
 `sudo networksetup -getdnsservers "Wi-Fi"` - покажет dns сервера настроенные на этом устройстве или вернет *There aren't any DNS Servers set on Wi-Fi* , что будет значить что mac использует dns сервера роутера к которому подключен
