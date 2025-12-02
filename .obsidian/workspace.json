@@ -32,12 +32,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Квартира/Проекты.md",
+                "file": "Квартира/Предположительная стоимость капитала.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Проекты"
+              "title": "Предположительная стоимость капитала"
             }
           }
         ],
@@ -186,9 +186,10 @@
   },
   "active": "bd16d3b64f947803",
   "lastOpenFiles": [
+    "Квартира/Варианты.md",
+    "Квартира/Предположительная стоимость капитала.md",
     "Квартира/Сравнение квартир.canvas",
     "999999_Images/Pasted image 20251202221057.png",
-    "Квартира/Проекты.md",
     "999999_Images/Pasted image 20251202231420.png",
     "999999_Images/Pasted image 20251202230645.png",
     "999999_Images/Pasted image 20251202225535.png",
