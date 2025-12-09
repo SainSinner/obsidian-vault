@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8c6406013a65e903",
+        "id": "b8e786517d698a95",
         "type": "tabs",
         "children": [
           {
-            "id": "bd16d3b64f947803",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Квартира/Варианты.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Варианты"
-            }
-          },
-          {
-            "id": "c6bf90bfa9166d29",
+            "id": "6977d786ec7af600",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,8 +21,7 @@
               "title": "Варианты"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 200
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -181,10 +164,29 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "c6bf90bfa9166d29",
+  "active": "6977d786ec7af600",
   "lastOpenFiles": [
-    "999999_Images/Pasted image 20251204160038.png",
+    "Pasted image 20251209141022.png",
+    "Квартира/Рейтинг застройщиков.md",
+    "Квартира/Пожелания к квартире.md",
+    "999999_Images/Pasted image 20251202224747.png",
     "Квартира/Варианты.md",
+    "999999_Images/Pasted image 20251202222518.png",
+    "999999_Images/Pasted image 20251202221057.png",
+    "Путешествия/0_источники про путешествия.md",
+    "Путешествия/ЮАР (Кейптайун).md",
+    "Путешествия/Черногория.md",
+    "Путешествия/Таиланд (Пхукет).md",
+    "Путешествия/Намибия.md",
+    "Путешествия/Португалия (Лиссабон).md",
+    "Путешествия/Марокко (Касабланка).md",
+    "Путешествия/Ливан (Бейрут).md",
+    "Путешествия/Дагестан.md",
+    "Путешествия/Испания (Барселона).md",
+    "Путешествия/Иран (Тегеран).md",
+    "Путешествия/Италия.md",
+    "Путешествия/Китай.md",
+    "999999_Images/Pasted image 20251204160038.png",
     "999999_Images/Pasted image 20251204183614.png",
     "999999_Images/Pasted image 20251204182140.png",
     "999999_Images/Pasted image 20251204160113.png",
@@ -194,12 +196,8 @@
     "0_Готовимся к собеседованию/0.canvas",
     "Квартира/Сравнение квартир.canvas",
     "Квартира/Предположительная стоимость капитала.md",
-    "999999_Images/Pasted image 20251202221057.png",
     "999999_Images/Pasted image 20251202231420.png",
     "999999_Images/Pasted image 20251202230645.png",
-    "999999_Images/Pasted image 20251202225535.png",
-    "999999_Images/Pasted image 20251202224747.png",
-    "Путешествия/Ливан (Бейрут).md",
     "Без названия.md",
     "Квартира",
     "Podman/Podman command.md",
@@ -208,21 +206,7 @@
     "Docker/Полезные команды.md",
     "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
     "2_ETL/DBT/DBT. теория.md",
-    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
-    "2_ETL/Python/PySpark/Операторы для Spark.Airflow Spark Provider.md",
-    "2_ETL/Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
-    "2_ETL/Python/Алгоритмы.md",
-    "2_ETL/Python/PySpark/SPARK SQL и SPARK функции.md",
-    "2_ETL/Python/PySpark/Сравнение типов данных, что когда использовать.md",
-    "2_ETL/Python/PySpark/Работа с запросами.md",
-    "2_ETL/Python/PySpark/Основа.md",
-    "2_ETL/Python/PySpark/Как читать и писать разные виды файлов.md",
-    "MAC/Как настроить свой MAC.md",
     "2_ETL/DBT",
-    "2_ETL/Kafka/Команды для работы в ubuntu.md",
-    "2_ETL/Kafka/Запустить в Docker.md",
-    "2_ETL/Kafka/Гарантия доставки сообщений в Kafka.md",
-    "2_ETL/Kafka/Взаимодействие продюсеров и консьюмеров с брокером Kafka.md",
     "2_ETL/Kafka/Debezium",
     "999998_books/174-kak-hochet-zhenschina.epub",
     "999998_books/Топ вопросы для Data Engineer.pdf",
