@@ -4,26 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8c6406013a65e903",
+        "id": "b8e786517d698a95",
         "type": "tabs",
         "children": [
           {
-            "id": "a2e5ff58a6b6a383",
+            "id": "6089353323d7009d",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "0_Готовимся к собеседованию/0.canvas",
-                "viewState": {
-                  "x": 1984.490725880095,
-                  "y": -3609.8943754995544,
-                  "zoom": -0.45880126953124994
-                }
+                "file": "Квартира/Заметки по ремонту.md",
+                "mode": "source",
+                "source": false
               },
-              "pinned": true,
-              "icon": "lucide-layout-dashboard",
-              "title": "0"
+              "icon": "lucide-file",
+              "title": "Заметки по ремонту"
             }
           }
         ]
@@ -83,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -170,55 +164,55 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "a2e5ff58a6b6a383",
+  "active": "6089353323d7009d",
   "lastOpenFiles": [
+    "Квартира/Важные делая при покупке квартры.md",
+    "Квартира/Варианты.md",
+    "Pasted image 20251213153755.png",
+    "Квартира/Заметки по ремонту.md",
+    "VPN/ASG VPN.md",
+    "VPN/Настройка VPN и Proxy.md",
+    "Квартира/Пожелания к квартире.md",
+    "Квартира/Рейтинг застройщиков.md",
+    "Квартира/Что я хочу купить.md",
+    "999999_Images/Pasted image 20251209141022.png",
+    "999999_Images/Pasted image 20251202224747.png",
+    "999999_Images/Pasted image 20251202222518.png",
+    "999999_Images/Pasted image 20251202221057.png",
+    "Путешествия/0_источники про путешествия.md",
+    "Путешествия/ЮАР (Кейптайун).md",
+    "Путешествия/Черногория.md",
+    "Путешествия/Таиланд (Пхукет).md",
+    "Путешествия/Намибия.md",
+    "Путешествия/Португалия (Лиссабон).md",
+    "Путешествия/Марокко (Касабланка).md",
+    "Путешествия/Ливан (Бейрут).md",
+    "Путешествия/Дагестан.md",
+    "Путешествия/Испания (Барселона).md",
+    "Путешествия/Иран (Тегеран).md",
+    "Путешествия/Италия.md",
+    "Путешествия/Китай.md",
+    "999999_Images/Pasted image 20251204160038.png",
+    "999999_Images/Pasted image 20251204183614.png",
+    "999999_Images/Pasted image 20251204182140.png",
+    "999999_Images/Pasted image 20251204160113.png",
+    "999999_Images/Pasted image 20251203151954.png",
+    "0_Готовимся к собеседованию/0.canvas",
+    "Квартира/Сравнение квартир.canvas",
+    "Квартира/Предположительная стоимость капитала.md",
+    "Без названия.md",
+    "Квартира",
     "Podman/Podman command.md",
     "Podman/Podman install.md",
     "Podman",
-    "Docker/Полезные команды.md",
-    "VPN/ASG VPN.md",
-    "VPN/Настройка VPN и Proxy.md",
-    "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
-    "2_ETL/DBT/DBT. теория.md",
-    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
-    "2_ETL/Python/PySpark/Операторы для Spark.Airflow Spark Provider.md",
-    "2_ETL/Python/PySpark/Виды таблиц Tables, представлений Views, MetaData метада в Spark.md",
-    "2_ETL/Python/Алгоритмы.md",
-    "2_ETL/Python/PySpark/SPARK SQL и SPARK функции.md",
-    "2_ETL/Python/PySpark/Сравнение типов данных, что когда использовать.md",
-    "2_ETL/Python/PySpark/Работа с запросами.md",
-    "2_ETL/Python/PySpark/Основа.md",
-    "2_ETL/Python/PySpark/Как читать и писать разные виды файлов.md",
-    "MAC/Как настроить свой MAC.md",
     "2_ETL/DBT",
-    "999999_Images/Pasted image 20251111084959.png",
-    "0_Готовимся к собеседованию/0.canvas",
-    "2_ETL/Kafka/Команды для работы в ubuntu.md",
-    "2_ETL/Kafka/Запустить в Docker.md",
-    "2_ETL/Kafka/Гарантия доставки сообщений в Kafka.md",
-    "2_ETL/Kafka/Взаимодействие продюсеров и консьюмеров с брокером Kafka.md",
-    "2_ETL/Kafka/Valuable links Kafka.md",
-    "2_ETL/Kafka/Различие Kafka, RabbitMQ.md",
-    "1_DataBase/0_DWH и модель данных/0 DWH и модель данных.md",
-    "999999_Images/Pasted image 20251111090800.png",
-    "999999_Images/Pasted image 20251111090325.png",
-    "999999_Images/Pasted image 20251111085042.png",
-    "2_ETL/Kafka/Debezium/Debezium. Пример настройки..md",
-    "2_ETL/Kafka/Debezium/Debezium. теория.md",
     "2_ETL/Kafka/Debezium",
     "999998_books/174-kak-hochet-zhenschina.epub",
-    "999999_Images/Pasted image 20251030064955.png",
-    "999999_Images/Pasted image 20251105193210.png",
-    "999999_Images/Pasted image 20251030065117.png",
-    "999999_Images/Pasted image 20251029142240.png",
     "999998_books/Топ вопросы для Data Engineer.pdf",
     "999998_books/Постигая_Agile_Э_Стеллман.pdf",
-    "999999_Images/Pasted image 20251029202233.png",
-    "999999_Images/Pasted image 20251029184421.png",
     "999998_books/Dama_dmbok_свод_знаний_по_управлению_данными.pdf",
     "999998_books/Computer_science_для_програмиста_самоучки_К_Альтхофф.pdf",
     "999998_books/Алгоритмы_построение_и_анализ_Т_Кормен.pdf",
-    "2_ETL/Scala",
     "Untitled.canvas",
     "Заметки для дырявой головы.canvas"
   ]
