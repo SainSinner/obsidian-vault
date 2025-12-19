@@ -33,5 +33,7 @@ Show and Run Commands
 **Ctrl + Alt + L**
 Регионы
 **Ctrl + Alt + T**
+ Автодополнение с подсказками
+**Ctrl+P**
 
 
