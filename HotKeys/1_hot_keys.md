@@ -19,6 +19,8 @@
 **Ctrl + F**
 Uppercase
 **Ctrl + Alt + U**
+Lowercase
+**Ctrl + Alt + U**
 Show and Run Commands
 **Ctrl + Shift + P**
 
@@ -36,4 +38,4 @@ Show and Run Commands
  Автодополнение с подсказками
 **Ctrl+P**
 
-
+ZDBV_PERSON
