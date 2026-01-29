@@ -20,7 +20,7 @@
 Uppercase
 **Ctrl + Alt + U**
 Lowercase
-**Ctrl + Alt + U**
+**Ctrl + Alt + D**
 Show and Run Commands
 **Ctrl + Shift + P**
 
@@ -38,4 +38,8 @@ Show and Run Commands
  Автодополнение с подсказками
 **Ctrl+P**
 
-ZDBV_PERSON
+T_POS_TXN_CASHLESS_L
+D_WHS_FRCST_OPSUM
+
+jb.job_id LIKE '%T_POS_TXN_CASHLESS_L%'
+    OR jb.job_id LIKE '%D_WHS_FRCST_OPSUM%'
