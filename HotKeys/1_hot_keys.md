@@ -35,11 +35,5 @@ Show and Run Commands
 **Ctrl + Alt + L**
 Регионы
 **Ctrl + Alt + T**
- Автодополнение с подсказками
+Автодополнение с подсказками
 **Ctrl+P**
-
-T_POS_TXN_CASHLESS_L
-D_WHS_FRCST_OPSUM
-
-jb.job_id LIKE '%T_POS_TXN_CASHLESS_L%'
-    OR jb.job_id LIKE '%D_WHS_FRCST_OPSUM%'
