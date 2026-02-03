@@ -4,43 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "b77ea8ab7b7727fc",
+        "id": "0ff5b43574f7e142",
         "type": "tabs",
         "children": [
           {
-            "id": "3b2815cc5a267423",
+            "id": "b6f824c6b5f96bad",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "GIT/Команды для своего репо.md",
-                "mode": "source",
-                "source": false
+                "file": "999997_work/MAGNIT/Привести в порядок понятия.canvas",
+                "viewState": {
+                  "x": 785.9949624583304,
+                  "y": 281.9119027670906,
+                  "zoom": -1.2829671339208302
+                }
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Команды для своего репо"
-            }
-          },
-          {
-            "id": "7aafb1973a8097af",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HotKeys/1_hot_keys.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "1_hot_keys"
+              "icon": "lucide-layout-dashboard",
+              "title": "Привести в порядок понятия"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -183,11 +168,21 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "822df6e08e5bf89f",
+  "active": "b6f824c6b5f96bad",
   "lastOpenFiles": [
-    "HotKeys/HotKey DataGrip.md",
-    "HotKeys/1_hot_keys.md",
+    "999997_work/MAGNIT/Привести в порядок понятия.canvas",
+    "999997_work/MAGNIT/LND (Landing).md",
+    "999997_work/MAGNIT/RAW.md",
+    "999997_work/MAGNIT/DDS.md",
+    "999997_work/MAGNIT/Base Marts L1.md",
+    "999997_work/MAGNIT/Business Marts.md",
+    "999997_work/MAGNIT/Base Marts L2.md",
+    "999997_work/MAGNIT/Тенант HR.md",
+    "999997_work/MAGNIT",
     "GIT/Команды для своего репо.md",
+    "HotKeys/1_hot_keys.md",
+    "GIT/Git запросы и обращение с репозиторием.md",
+    "HotKeys/HotKey DataGrip.md",
     "Квартира/Заметки по ремонту.md",
     "VPN/Настройка VPN и Proxy.md",
     "2_ETL/Apache Airflow/2_Ликбез по ETL/2_2 Directed Acyclic Graph (DAG).md",
@@ -217,22 +212,12 @@
     "999999_Images/Pasted image 20251202224747.png",
     "999999_Images/Pasted image 20251202222518.png",
     "999999_Images/Pasted image 20251202221057.png",
-    "Путешествия/0_источники про путешествия.md",
-    "Путешествия/ЮАР (Кейптайун).md",
-    "Путешествия/Черногория.md",
-    "Путешествия/Таиланд (Пхукет).md",
-    "Путешествия/Намибия.md",
-    "Путешествия/Португалия (Лиссабон).md",
-    "Путешествия/Марокко (Касабланка).md",
-    "Путешествия/Ливан (Бейрут).md",
-    "Путешествия/Дагестан.md",
     "999999_Images/Pasted image 20251204160038.png",
     "999999_Images/Pasted image 20251204183614.png",
     "0_Готовимся к собеседованию/0.canvas",
     "Квартира/Сравнение квартир.canvas",
     "Квартира",
     "Podman",
-    "2_ETL/DBT",
     "Untitled.canvas",
     "Заметки для дырявой головы.canvas"
   ]
