@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"db433d4fbd880d8a","type":"file","file":"999997_work/MAGNIT/Business Marts.md","x":1640,"y":-60,"width":420,"height":400},
+		{"id":"472aec138fd276e6","type":"text","text":"L1 (base_dm_v_l1)","x":1064,"y":0,"width":420,"height":60,"color":"4"},
+		{"id":"685521dcd64770a6","type":"text","text":"L1 (base_proto_dm_l1)","x":1064,"y":-60,"width":420,"height":60,"color":"4"},
+		{"id":"4ed9adce710f8fbf","type":"text","text":"Base Mart","x":1056,"y":-160,"width":436,"height":60},
+		{"id":"4d6059c27e96ed41","type":"text","text":"L2 (base_proto_dm_l2)","x":1064,"y":556,"width":420,"height":60,"color":"4"},
+		{"id":"24820115236b1403","type":"text","text":"L1 (base_dm_v_l2)","x":1064,"y":616,"width":420,"height":60,"color":"4"},
+		{"id":"c6c572ec355f6dca","type":"file","file":"999997_work/MAGNIT/Base Marts L2.md","x":1064,"y":720,"width":420,"height":400},
+		{"id":"862c14d93d11e284","type":"file","file":"999997_work/MAGNIT/Base Marts L1.md","x":1064,"y":100,"width":420,"height":400},
+		{"id":"1685e4d6ba544f50","type":"file","file":"999997_work/MAGNIT/DDS.md","x":545,"y":-60,"width":436,"height":440},
+		{"id":"fa2a5634bb74e37b","type":"text","text":"FlexLoader","x":-800,"y":-30,"width":250,"height":60},
+		{"id":"4b0643a0650c7e7a","type":"text","text":"MagnitLoader(MGL)","x":-800,"y":70,"width":250,"height":60},
+		{"id":"01ab288098d366a6","type":"file","file":"999997_work/MAGNIT/RAW.md","x":56,"y":-60,"width":410,"height":440},
+		{"id":"aaadbbf07941ca54","type":"file","file":"999997_work/MAGNIT/LND (Landing).md","x":-440,"y":-60,"width":436,"height":440},
+		{"id":"4289fc0d0f1990b6","type":"text","text":"Тенант","x":-875,"y":-660,"width":400,"height":60},
+		{"id":"8b75420c367c11c0","type":"file","file":"999997_work/MAGNIT/Тенант HR.md","x":-875,"y":-560,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"f5837445b2acd00e","fromNode":"685521dcd64770a6","fromSide":"right","toNode":"4d6059c27e96ed41","toSide":"left"},
+		{"id":"55f25815e2ba34ac","fromNode":"685521dcd64770a6","fromSide":"right","toNode":"db433d4fbd880d8a","toSide":"left"},
+		{"id":"b37352e54c3f3a9a","fromNode":"24820115236b1403","fromSide":"right","toNode":"db433d4fbd880d8a","toSide":"left"},
+		{"id":"6e7369bcd4ef4e84","fromNode":"aaadbbf07941ca54","fromSide":"right","toNode":"01ab288098d366a6","toSide":"left"},
+		{"id":"c7bc3bd4849fa58b","fromNode":"01ab288098d366a6","fromSide":"right","toNode":"1685e4d6ba544f50","toSide":"left"},
+		{"id":"42c6e3bc902fff7b","fromNode":"01ab288098d366a6","fromSide":"right","toNode":"472aec138fd276e6","toSide":"left"},
+		{"id":"bc3686ec8fdfc580","fromNode":"01ab288098d366a6","fromSide":"right","toNode":"4d6059c27e96ed41","toSide":"left"}
+	]
+}

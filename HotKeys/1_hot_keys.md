@@ -19,6 +19,8 @@
 **Ctrl + F**
 Uppercase
 **Ctrl + Alt + U**
+Lowercase
+**Ctrl + Alt + D**
 Show and Run Commands
 **Ctrl + Shift + P**
 
@@ -33,7 +35,5 @@ Show and Run Commands
 **Ctrl + Alt + L**
 Регионы
 **Ctrl + Alt + T**
- Автодополнение с подсказками
+Автодополнение с подсказками
 **Ctrl+P**
-
-
