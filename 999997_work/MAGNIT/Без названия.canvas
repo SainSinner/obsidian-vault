@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"837a784acf04fddd","x":-360,"y":-560,"width":994,"height":300,"type":"file","file":"Pasted image 20260306111656.png"},
+		{"id":"3dddbd711c88c3d9","x":47,"y":-80,"width":180,"height":160,"type":"text","text":"22 driver сбор во временную таблицу (параллельный 15-му и завист от 14, 11)"},
+		{"id":"369149f8521d5775","type":"text","text":"23 driver (инкремент собираем)","x":307,"y":-80,"width":180,"height":160},
+		{"id":"cdc399fa78060a99","type":"text","text":"24 driver инсерт в целевую таблицу","x":551,"y":-80,"width":180,"height":160},
+		{"id":"4af46d5e70a16bcd","type":"text","text":"END","x":827,"y":-80,"width":180,"height":160},
+		{"id":"2d4c50792287bf90","type":"text","text":"15 driver ","x":47,"y":-260,"width":180,"height":160},
+		{"id":"574a6f2c4da3eff1","type":"text","text":"14 driver ","x":-260,"y":-260,"width":180,"height":60},
+		{"id":"b141eb1a59fee669","x":-260,"y":-180,"width":180,"height":60,"type":"text","text":"11 driver \n"},
+		{"id":"d9e63089db8ba6e8","type":"text","text":"13 driver \n","x":-260,"y":-80,"width":180,"height":60},
+		{"id":"f830829688b76b7d","type":"text","text":"21 driver перед 15 (параллельно с остальными <15)","x":-260,"y":20,"width":180,"height":160}
+	],
+	"edges":[
+		{"id":"d577c5d0c84995b3","fromNode":"3dddbd711c88c3d9","fromSide":"right","toNode":"369149f8521d5775","toSide":"left"},
+		{"id":"c639ce8c0f93a333","fromNode":"369149f8521d5775","fromSide":"right","toNode":"cdc399fa78060a99","toSide":"left"},
+		{"id":"c84aedb0f9e6e6b8","fromNode":"cdc399fa78060a99","fromSide":"right","toNode":"4af46d5e70a16bcd","toSide":"left"},
+		{"id":"d3b2394e594f7c40","fromNode":"f830829688b76b7d","fromSide":"right","toNode":"3dddbd711c88c3d9","toSide":"left"},
+		{"id":"658b2ae786e22da9","fromNode":"574a6f2c4da3eff1","fromSide":"right","toNode":"2d4c50792287bf90","toSide":"left"},
+		{"id":"a6e156042a8810a3","fromNode":"b141eb1a59fee669","fromSide":"right","toNode":"2d4c50792287bf90","toSide":"left"},
+		{"id":"05d5de8e363111f2","fromNode":"574a6f2c4da3eff1","fromSide":"right","toNode":"3dddbd711c88c3d9","toSide":"left"},
+		{"id":"c95532e3168c0723","fromNode":"b141eb1a59fee669","fromSide":"right","toNode":"3dddbd711c88c3d9","toSide":"left"},
+		{"id":"99c6125621797c9d","fromNode":"d9e63089db8ba6e8","fromSide":"right","toNode":"2d4c50792287bf90","toSide":"left"},
+		{"id":"674ad6fe4892858b","fromNode":"d9e63089db8ba6e8","fromSide":"right","toNode":"3dddbd711c88c3d9","toSide":"left"}
+	]
+}

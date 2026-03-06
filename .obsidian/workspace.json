@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "999997_work/MAGNIT/Привести в порядок понятия.canvas",
+                "file": "999997_work/MAGNIT/Без названия.canvas",
                 "viewState": {
-                  "x": 87.04441995750909,
-                  "y": 51.700909954756995,
-                  "zoom": -0.13701205890413737
+                  "x": 371.27694716504163,
+                  "y": -201.24104059209185,
+                  "zoom": 0.3333333333333334
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Привести в порядок понятия"
+              "title": "Без названия"
             }
           }
         ],
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 502.5
+    "width": 420.5
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -184,9 +184,18 @@
   },
   "active": "ba01ba64f01ff4ee",
   "lastOpenFiles": [
-    "GIT/Команды для своего репо.md",
-    "999997_work/MAGNIT/тест на знание SQL.md",
+    "Pasted image 20260306111656.png",
     "999997_work/MAGNIT/Привести в порядок понятия.canvas",
+    "999997_work/MAGNIT/Без названия.canvas",
+    "HotKeys/1_hot_keys.md",
+    "GIT/Команды для своего репо.md",
+    "HotKeys/HotKey DataGrip.md",
+    "Pasted image 20260203084405.png",
+    "Pasted image 20260203084445.png",
+    "Без названия.base",
+    "Без названия 1.base",
+    "Без названия.md",
+    "999997_work/MAGNIT/тест на знание SQL.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
     "5_3 Hook и метод execute.md",
     "999997_work/MAGNIT/Тенант HR.md",
@@ -207,14 +216,6 @@
     "2_ETL/Apache Airflow/5_Разработка best practices/5_1 Задание на работу с нотификацией.md",
     "2_ETL/Apache Airflow/5_Разработка best practices/5_2 Sensors.md",
     "2_ETL/Apache Airflow/3_Введение в Airflow/3_2 Operator и Task.md",
-    "Без названия 1.base",
-    "999997_work/MAGNIT/LND (Landing).md",
-    "Без названия.base",
-    "999997_work/MAGNIT/RAW.md",
-    "Pasted image 20260203084445.png",
-    "Pasted image 20260203084405.png",
-    "999997_work/MAGNIT/DDS (detail data store).md",
-    "999997_work/MAGNIT/Base Marts L1.md",
     "999997_work/MAGNIT",
     "999999_Images/Pasted image 20260111180823.png",
     "999999_Images/Pasted image 20251213153755.png",
