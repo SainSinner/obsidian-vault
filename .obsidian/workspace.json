@@ -25,13 +25,27 @@
             "id": "ba01ba64f01ff4ee",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Динамическая генерация условия"
+            }
+          },
+          {
+            "id": "111ca75c7151ad56",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "999997_work/MAGNIT/Без названия.canvas",
                 "viewState": {
-                  "x": 371.27694716504163,
-                  "y": -201.24104059209185,
-                  "zoom": 0.3333333333333334
+                  "x": 63.75374348499813,
+                  "y": -93.06189358405271,
+                  "zoom": 1.1102230246251565e-16
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -39,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gree",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 271.5
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -182,11 +196,15 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "ba01ba64f01ff4ee",
+  "active": "111ca75c7151ad56",
   "lastOpenFiles": [
+    "999998_books/978_5_93700_289_1_Apache_Iceberg_Полное_руководство_skladchik_org.pdf",
+    "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
+    "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
+    "999997_work/MAGNIT/Без названия.canvas",
     "Pasted image 20260306111656.png",
     "999997_work/MAGNIT/Привести в порядок понятия.canvas",
-    "999997_work/MAGNIT/Без названия.canvas",
     "HotKeys/1_hot_keys.md",
     "GIT/Команды для своего репо.md",
     "HotKeys/HotKey DataGrip.md",
@@ -196,7 +214,6 @@
     "Без названия 1.base",
     "Без названия.md",
     "999997_work/MAGNIT/тест на знание SQL.md",
-    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
     "5_3 Hook и метод execute.md",
     "999997_work/MAGNIT/Тенант HR.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Последовательность выполнения запроса SELECT.md",
@@ -207,7 +224,6 @@
     "1_DataBase/0_DWH и модель данных/6 Реляционные и нереляционные базы SQL и no-SQL.md",
     "1_DataBase/0_DWH и модель данных/8 EXPLAIN ANALYZE.md",
     "1_DataBase/0_DWH и модель данных/9 Виды SQL.md",
-    "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Агрегатные функции.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Множим строки через Regex.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Задание на отбор на позицию в Сбер Разраб баз данных.md",
@@ -215,7 +231,6 @@
     "2_ETL/Apache Airflow/5_Разработка best practices/5_3 Кастомный Operator и Hook.md",
     "2_ETL/Apache Airflow/5_Разработка best practices/5_1 Задание на работу с нотификацией.md",
     "2_ETL/Apache Airflow/5_Разработка best practices/5_2 Sensors.md",
-    "2_ETL/Apache Airflow/3_Введение в Airflow/3_2 Operator и Task.md",
     "999997_work/MAGNIT",
     "999999_Images/Pasted image 20260111180823.png",
     "999999_Images/Pasted image 20251213153755.png",
@@ -231,7 +246,6 @@
     "999999_Images/Pasted image 20251209141022.png",
     "999999_Images/Pasted image 20251202224747.png",
     "999999_Images/Pasted image 20251202222518.png",
-    "999999_Images/Pasted image 20251202221057.png",
     "0_Готовимся к собеседованию/0.canvas",
     "Квартира/Сравнение квартир.canvas",
     "Untitled.canvas",
