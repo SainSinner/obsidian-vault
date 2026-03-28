@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VPN/VLESS+Reality.md",
+                "file": "VPN/VLESS+Reality + Proxy socks5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VLESS+Reality"
+              "title": "VLESS+Reality + Proxy socks5"
             }
           }
         ],
@@ -196,15 +196,15 @@
   "active": "e367fedfcdef1ff5",
   "lastOpenFiles": [
     "VPN/VLESS+Reality (2).md",
+    "VPN/VLESS+Reality + Proxy socks5.md",
+    "GIT/Команды для своего репо.md",
     "VPN/Без названия.md",
-    "VPN/VLESS+Reality.md",
     "Квартира/Заметки по ремонту.md",
     "Квартира/Пожелания к квартире.md",
     "Квартира/Варианты.md",
     "Квартира/Важные делая при покупке квартры.md",
     "VPN/Настройка VPN и Proxy.md",
     "GIT/Git запросы и обращение с репозиторием.md",
-    "GIT/Команды для своего репо.md",
     "Pasted image 20260225091251.png",
     "Pasted image 20260225090829.png",
     "Pasted image 20260225090608.png",
