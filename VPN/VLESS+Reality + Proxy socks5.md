@@ -18,7 +18,9 @@ ufw allow 27872/tcp
 ufw allow 443/tcp
 
 ### Как поставить
-1. Скачать приложение отсюда https://hiddify.com/ (для android/ios), вот это для macos v2box
+1. Скачать приложение отсюда https://hiddify.com/ (для android), вот это для macos v2box, для iphone скачать следующие приложения
+https://apps.apple.com/kz/app/hiddify-proxy-vpn/id6596777532 Hiddify Proxy & VPN (этот использовать с включенным WARP, это можно сделать внутри приложения)
+https://apps.apple.com/kz/app/vpn-mango-v2ray/id6751106608 VPN - Mango V2ray
 2. Сканировать QR код
 
 # Proxy socks5

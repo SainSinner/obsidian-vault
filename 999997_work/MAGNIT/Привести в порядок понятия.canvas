@@ -8,7 +8,7 @@
 		{"id":"24820115236b1403","type":"text","text":"L1 (base_dm_v_l2)","x":1064,"y":616,"width":420,"height":60,"color":"4"},
 		{"id":"c6c572ec355f6dca","type":"file","file":"999997_work/MAGNIT/Base Marts L2.md","x":1064,"y":720,"width":420,"height":400},
 		{"id":"862c14d93d11e284","type":"file","file":"999997_work/MAGNIT/Base Marts L1.md","x":1064,"y":100,"width":420,"height":400},
-		{"id":"1685e4d6ba544f50","type":"file","file":"999997_work/MAGNIT/DDS.md","x":545,"y":-60,"width":436,"height":440},
+		{"id":"1685e4d6ba544f50","type":"file","file":"999997_work/MAGNIT/DDS (detail data store).md","x":545,"y":-60,"width":436,"height":440},
 		{"id":"fa2a5634bb74e37b","type":"text","text":"FlexLoader","x":-800,"y":-30,"width":250,"height":60},
 		{"id":"4b0643a0650c7e7a","type":"text","text":"MagnitLoader(MGL)","x":-800,"y":70,"width":250,"height":60},
 		{"id":"01ab288098d366a6","type":"file","file":"999997_work/MAGNIT/RAW.md","x":56,"y":-60,"width":410,"height":440},
