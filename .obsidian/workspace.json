@@ -39,18 +39,38 @@
             "id": "111ca75c7151ad56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
-                "mode": "source",
-                "source": false
+                "file": "999997_work/MAGNIT/Без названия.canvas",
+                "viewState": {
+                  "x": 371.5238779097139,
+                  "y": -482.2645806414693,
+                  "zoom": 1
+                }
               },
-              "icon": "lucide-file",
-              "title": "Работа с сетями, IP, DNS, host"
+              "icon": "lucide-layout-dashboard",
+              "title": "Без названия"
+            }
+          },
+          {
+            "id": "d24b6025476fa35b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
+                "viewState": {
+                  "x": 150,
+                  "y": -503,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ИБ Магнит_ликбез"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,21 +213,27 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "111ca75c7151ad56",
+  "active": "d24b6025476fa35b",
   "lastOpenFiles": [
+    "Pasted image 20260430122311.png",
+    "Pasted image 20260430120927.png",
+    "Pasted image 20260430120859.png",
+    "999997_work/MAGNIT/Без названия.canvas",
+    "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
+    "999997_work/MAGNIT/Привести в порядок понятия.canvas",
+    "Pasted image 20260424144056.png",
+    "Pasted image 20260424144006.png",
+    "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
     "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
     "Без названия.base",
-    "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
     "5_3 Hook и метод execute.md",
     "VPN/Настройка VPN и Proxy.md",
     "VPN/ASG VPN.md",
-    "999997_work/MAGNIT/Без названия.canvas",
     "999998_books/978_5_93700_289_1_Apache_Iceberg_Полное_руководство_skladchik_org.pdf",
     "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
     "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
     "Pasted image 20260306111656.png",
-    "999997_work/MAGNIT/Привести в порядок понятия.canvas",
     "HotKeys/1_hot_keys.md",
     "GIT/Команды для своего репо.md",
     "HotKeys/HotKey DataGrip.md",
@@ -228,21 +254,16 @@
     "1_DataBase/1_PostgreSQL_SQLLang/Агрегатные функции.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Множим строки через Regex.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Задание на отбор на позицию в Сбер Разраб баз данных.md",
-    "1_DataBase/1_PostgreSQL_SQLLang/Анализ запросов.md",
     "999997_work/MAGNIT",
     "999999_Images/Pasted image 20260111180823.png",
     "999999_Images/Pasted image 20251213153755.png",
     "999999_Images/Pasted image 20251222183944.png",
-    "999999_Images/Pasted image 20260111180310.png",
     "999998_books/Peugeot 208 (2014).pdf",
     "Автомобили",
     "999998_books/FB_PE-2021.pdf",
     "999998_books/Designing_data_intensive_applications_M_Kleppmann.pdf",
     "999998_books/Введение_в_машинное_обучение_с_помощью_python_А_Мюллер_С_Гвидо.pdf",
     "999998_books/Алгоритмы_построение_и_анализ_Т_Кормен.pdf",
-    "999999_Images/Pasted image 20251209141022.png",
-    "999999_Images/Pasted image 20251202224747.png",
-    "999999_Images/Pasted image 20251202222518.png",
     "0_Готовимся к собеседованию/0.canvas",
     "Квартира/Сравнение квартир.canvas",
     "Untitled.canvas",
