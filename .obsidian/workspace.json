@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
+                "file": "GIT/Git запросы и обращение с репозиторием.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBT. Магнит поставить и запустить"
+              "title": "Git запросы и обращение с репозиторием"
             }
           }
         ]
@@ -166,13 +166,13 @@
   },
   "active": "d24b6025476fa35b",
   "lastOpenFiles": [
-    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
+    "GIT/Команды для своего репо.md",
     "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
+    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
     "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
     "999997_work/MAGNIT/Без названия.canvas",
     "2_ETL/DBT/DBT. Пример настройки одной модели.md",
     "2_ETL/DBT/DBT. теория.md",
-    "GIT/Команды для своего репо.md",
     "GIT/Git запросы и обращение с репозиторием.md",
     "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
     "Pasted image 20260430122311.png",
