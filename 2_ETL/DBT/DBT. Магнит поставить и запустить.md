@@ -2,13 +2,16 @@
 1. Зайти в папку в которой хотим чтобы было создано окружение
 2. python -m venv .dbt_env
 3. активируем для СMD .dbt_env\Scripts\activate.bat lдля PowerShell .dbt_env\Scripts\Activate.ps1
-4. Устанавливаем необходимые библиотеки `python -m pip install -r ./khd-2.0/airflow_etl/dags/magn/generator_dbt_model/requirements.txt`
-5.  Создать .env по расположению `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\.env` со следующим контентом
+4. Устанавливаем необходимые библиотеки (сначала проваливаемся в 
+   `cd C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model`
+   затем
+   `python -m pip install -r requirements.txt`
+5.  (в первый раз) Создать .env по расположению `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\.env` со следующим контентом
 DWH20_IMPALA_HOST=impala-tenant-hr.lh-tst.corp.tander.ru
 DWH20_IMPALA_PORT=21050
 DWH20_IMPALA_USER=my_login
 DWH20_IMPALA_PASS=my_password
- 6. Создать rofiles.yml по расположению `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\profiles.yml` со следующим контентом
+ 6. Создать profiles.yml по расположению `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\profiles.yml` со следующим контентом
 dwh20:
   target: test
   outputs:
