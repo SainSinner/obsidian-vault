@@ -11,17 +11,14 @@
             "id": "d24b6025476fa35b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "999997_work/MAGNIT/Привести в порядок понятия.canvas",
-                "viewState": {
-                  "x": 957.8065382867443,
-                  "y": 88.88313787338166,
-                  "zoom": -0.370652926931517
-                }
+                "file": "2_ETL/DBT/DBT. Магнит запустить.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Привести в порядок понятия"
+              "icon": "lucide-file",
+              "title": "DBT. Магнит запустить"
             }
           }
         ]
@@ -169,6 +166,7 @@
   },
   "active": "d24b6025476fa35b",
   "lastOpenFiles": [
+    "999997_work/MAGNIT/Привести в порядок понятия.canvas",
     "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
     "GIT/Magnit.md",
     "2_ETL/DBT/DBT. Магнит запустить.md",
@@ -184,7 +182,6 @@
     "Pasted image 20260430122311.png",
     "Pasted image 20260430120927.png",
     "Pasted image 20260430120859.png",
-    "999997_work/MAGNIT/Привести в порядок понятия.canvas",
     "Pasted image 20260424144056.png",
     "Pasted image 20260424144006.png",
     "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",

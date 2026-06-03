@@ -1,7 +1,8 @@
 Для Windows
-1. активируем для 
-   **СMD** `.venv\Scripts\activate.bat`
-   **PowerShell** `.venv\Scripts\Activate.ps1`
+1. Если папка venv не создана, то создаем ее `python -m venv venv`
+2. активируем для 
+   **СMD** `venv\Scripts\activate.bat`
+   **PowerShell** `venv\Scripts\Activate.ps1`
 2. Устанавливаем необходимые библиотеки (сначала проваливаемся в 
    `cd C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model`
    затем
