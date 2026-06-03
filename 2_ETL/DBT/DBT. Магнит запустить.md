@@ -466,4 +466,4 @@
    13:31:52  Flushing usage events
 2. Скомпилированные объекты появятся в `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\target`
 3. Пробуем запустить модель `dbt run --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select t_hr_indvl_dh_tmp_final --vars "{hooks_enabled: false}"`
-4. А так можно запустить все модели из папки и определенного слоя `dbt run --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "dwh20_test.hr.base_proto_dm_l1.*" --vars "{hooks_enabled: false}"`
+4. А так можно запустить все модели из папки и определенного слоя `dbt run --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "dwh20_test.hr.base_proto_dm_l1.t_hr_indvl*" --vars "{hooks_enabled: false}"`

@@ -11,14 +11,17 @@
             "id": "d24b6025476fa35b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "GIT/Magnit.md",
-                "mode": "source",
-                "source": false
+                "file": "999997_work/MAGNIT/Привести в порядок понятия.canvas",
+                "viewState": {
+                  "x": 957.8065382867443,
+                  "y": 88.88313787338166,
+                  "zoom": -0.370652926931517
+                }
               },
-              "icon": "lucide-file",
-              "title": "Magnit"
+              "icon": "lucide-layout-dashboard",
+              "title": "Привести в порядок понятия"
             }
           }
         ]
@@ -166,10 +169,11 @@
   },
   "active": "d24b6025476fa35b",
   "lastOpenFiles": [
-    "GIT/Git запросы и обращение с репозиторием.md",
+    "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
     "GIT/Magnit.md",
-    "GIT/Команды для своего репо.md",
     "2_ETL/DBT/DBT. Магнит запустить.md",
+    "GIT/Git запросы и обращение с репозиторием.md",
+    "GIT/Команды для своего репо.md",
     "2_ETL/DBT/DBT. Работа с ветками.md",
     "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
     "2_ETL/DBT/DBT. теория.md",
@@ -177,7 +181,6 @@
     "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
     "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
     "999997_work/MAGNIT/Без названия.canvas",
-    "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
     "Pasted image 20260430122311.png",
     "Pasted image 20260430120927.png",
     "Pasted image 20260430120859.png",
@@ -205,7 +208,6 @@
     "1_DataBase/1_PostgreSQL_SQLLang/Создание пустых таблиц.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Транслирование таблиц между серверами PostgreSQL.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Joins. Виды соединений таблиц.md",
-    "1_DataBase/0_DWH и модель данных/7 последовательность выполнения запроса SELECT.md",
     "999997_work/MAGNIT",
     "999999_Images/Pasted image 20260111180823.png",
     "999999_Images/Pasted image 20251213153755.png",
