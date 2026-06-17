@@ -37,6 +37,11 @@
    `C:\Users\grekhov_sk\.dbt_env\Lib\site-packages\thrift\transport\TSSLSocket.py:53: DeprecationWarning: ssl.PROTOCOL_TLS is deprecated self._context = ssl.SSLContext(ssl_version)`
    `11:54:03    Connection test: [OK connection ok]`
    `11:54:03  All checks passed!`
+1. Чистим кэш 
+```
+   Remove-Item -Recurse -Force .\khd-2.0\target
+   Remove-Item -Recurse -Force .\khd-2.0\dbt_packages
+```
 1. Далее тестируем DBT модель начинаем с (==УКАЗАВ КОНКРЕНТУЮ МОДЕЛЬ==) `dbt compile --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "dwh20_test.hr.base_proto_dm_l1.*" --debug`
    
    ==Выдаст примерно следующее==
