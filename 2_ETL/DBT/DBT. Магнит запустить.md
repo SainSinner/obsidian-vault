@@ -42,7 +42,8 @@
    Remove-Item -Recurse -Force .\khd-2.0\target
    Remove-Item -Recurse -Force .\khd-2.0\dbt_packages
 ```
-1. Далее тестируем DBT модель начинаем с (==УКАЗАВ КОНКРЕНТУЮ МОДЕЛЬ==) `dbt compile --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "t_hr_indvl_dh_tmp_final t_hr_indvl_dh v_hr_indvl_dh v_hr_indvl_ds" --debug`
+1. Модели лучше запускать через тэг. Первым делом посмотрим какие модели обладают тэгом который мы хотим тригернуть `dbt ls --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "tag:t_hr_indvl_dh"`
+2. Далее тестируем DBT модель начинаем с (==УКАЗАВ КОНКРЕНТУЮ МОДЕЛЬ ЧЕРЕЗ ТЭГ ИЛИ НАЗВАНИЕ МОДЕЛИ==) `dbt compile --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "tag:t_hr_indvl_dh" --debug`
    
    ==Выдаст примерно следующее==
    
@@ -470,6 +471,5 @@
      from base_query bq
    13:31:52  Command `dbt compile` succeeded at 16:31:52.759062 after 41.66 seconds
    13:31:52  Flushing usage events
-2. Скомпилированные объекты появятся в `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\target`
-3. Пробуем запустить модель `dbt run --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "t_hr_indvl_dh_tmp_final t_hr_indvl_dh v_hr_indvl_dh v_hr_indvl_ds" --vars "{hooks_enabled: false}"`
-4. А так можно запустить все модели из папки и определенного слоя `dbt run --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "dwh20_test.hr.base_proto_dm_l1.t_hr_indvl*" --vars "{hooks_enabled: false}"`
+3. Скомпилированные объекты появятся в `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\target`
+4. Пробуем запустить модель `dbt run --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "tag:t_hr_indvl_dh" --vars "{hooks_enabled: false}"`
