@@ -7,7 +7,9 @@
    `cd C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model`
    затем
    `python -m pip install -r requirements.txt`
-3. Проверяем рабочую директорию и запускаем проверку из папки **generator_dbt_model** `dbt debug --profiles-dir ./dwh20_test --project-dir ./dwh20_test`
+3. из файла ниже `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\.env.template` содаeм со своими кредами`C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\.env`
+4. из файла ниже `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\profiles.template.yml` создаем о своими кредами `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\profiles.yml` 
+5. Проверяем рабочую директорию и запускаем проверку из папки **generator_dbt_model** `dbt debug --profiles-dir ./dwh20_test --project-dir ./dwh20_test`
    
    ==Должно выдать примерно следующее== 
    
@@ -37,13 +39,14 @@
    `C:\Users\grekhov_sk\.dbt_env\Lib\site-packages\thrift\transport\TSSLSocket.py:53: DeprecationWarning: ssl.PROTOCOL_TLS is deprecated self._context = ssl.SSLContext(ssl_version)`
    `11:54:03    Connection test: [OK connection ok]`
    `11:54:03  All checks passed!`
-1. Чистим кэш 
+1. Модели лежат тут `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\models`
+2. Чистим кэш 
 ```
    Remove-Item -Recurse -Force .\khd-2.0\target
    Remove-Item -Recurse -Force .\khd-2.0\dbt_packages
 ```
 1. Модели лучше запускать через тэг. Первым делом посмотрим какие модели обладают тэгом который мы хотим тригернуть `dbt ls --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "tag:t_hr_indvl_dh"`
-2. Далее тестируем DBT модель начинаем с (==УКАЗАВ КОНКРЕНТУЮ МОДЕЛЬ ЧЕРЕЗ ТЭГ ИЛИ НАЗВАНИЕ МОДЕЛИ==) `dbt compile --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "tag:t_hr_indvl_dh" --debug`
+2. Далее тестируем DBT модель начинаем с (==УКАЗАВ КОНКРЕНТУЮ МОДЕЛЬ ЧЕРЕЗ ТЭГ ИЛИ НАЗВАНИЕ МОДЕЛИ==) `dbt compile --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select tag:t_hr_indvl_dh --debug`
    
    ==Выдаст примерно следующее==
    

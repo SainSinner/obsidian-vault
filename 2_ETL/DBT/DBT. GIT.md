@@ -16,3 +16,5 @@
 9. git cherry-pick 22d77d1de1245b483e2457ca4bfaef0a46be7ef1 22d77d1de1245b483e2457ca4bfaef0a46be7ef2 **(здесь вводим guid коммитов которые хотим вставить в ветку через пробел)**
 10. git pull
 11. делаем MR origin/feature/HRANALYTICS-670_p в origin/master
+### Переключиться на другую ветку несмотря на изменения в текущей
+git checkout -f feature/HRANALYTICS-712_t
