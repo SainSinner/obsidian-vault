@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"837a784acf04fddd","type":"file","file":"Pasted image 20260306111656.png","x":-360,"y":-560,"width":994,"height":300},
+		{"id":"837a784acf04fddd","type":"file","file":"999999_Images/Pasted image 20260306111656.png","x":-360,"y":-560,"width":994,"height":300},
 		{"id":"3dddbd711c88c3d9","type":"text","text":"22 driver сбор во временную таблицу (параллельный 15-му и завист от 14, 11)","x":47,"y":-80,"width":180,"height":160},
 		{"id":"369149f8521d5775","type":"text","text":"23 driver (инкремент собираем)","x":307,"y":-80,"width":180,"height":160},
 		{"id":"cdc399fa78060a99","type":"text","text":"24 driver инсерт в целевую таблицу","x":551,"y":-80,"width":180,"height":160},

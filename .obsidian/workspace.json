@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b77ea8ab7b7727fc",
+        "id": "3d13fcd88601c85c",
         "type": "tabs",
         "children": [
           {
-            "id": "8b70b6dd10b9ebf6",
+            "id": "147e5faf0810180b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Команды для своего репо"
-            }
-          },
-          {
-            "id": "939ac7efdf40eb65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VPN/VLESS+Reality + Proxy socks5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VLESS+Reality + Proxy socks5"
             }
           }
         ]
@@ -92,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 717.5
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -178,55 +164,56 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "8b70b6dd10b9ebf6",
+  "active": "147e5faf0810180b",
   "lastOpenFiles": [
-    "VPN/VLESS+Reality + Proxy socks5.md",
-    "Квартира/Варианты.md",
-    "VPN/Настройка VPN и Proxy.md",
-    "Квартира/Заметки по ремонту.md",
+    "GIT/Git запросы и обращение с репозиторием.md",
+    "GIT/Команды для своего репо.md",
+    "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
+    "2_ETL/Apache Airflow/2_Ликбез по ETL/2_2 Идемпотентность.md",
     "Без названия.base",
-    "Pasted image 20260306111656.png",
-    "Pasted image 20260203084445.png",
-    "Pasted image 20260203084405.png",
+    "5_3 Hook и метод execute.md",
+    "999999_Images/Pasted image 20260203084405.png",
+    "999999_Images/Pasted image 20260225090426.png",
+    "999999_Images/Pasted image 20260203084445.png",
+    "велики/Мойка велосипеда.md",
+    "велики/Собираем MTB.md",
+    "999998_books/1_Книги. Списки.md",
+    "999998_books/Теннис_Психология_успешной_игры_Гэллуэй_Т.pdf",
+    "VPN/VLESS+Reality RU.md",
+    "VPN/VLESS+Reality + Proxy socks5.md",
+    "VPN/Шаблон конфигурации Xray.md",
+    "VPN/Настройка VPN и Proxy.md",
+    "VPN/ASG VPN.md",
+    "VPN/VLESS+Reality (2).md",
+    "MAC/Как настроить свой MAC.md",
+    "велики",
+    "0_Готовимся к собеседованию/Теория для собеседований.SQL.md",
+    "0_Готовимся к собеседованию/Теория для собеседований.Python.md",
+    "0_Готовимся к собеседованию/План подготовки.md",
+    "0_Готовимся к собеседованию/Интересные технологии которые стоит попробовать.md",
+    "0_Готовимся к собеседованию/0.canvas",
+    "1_DataBase/Векторные базы данных.md",
+    "1_DataBase/RAG система.md",
+    "Квартира/Варианты.md",
+    "Квартира/Заметки по ремонту.md",
+    "999999_Images/Pasted image 20260306111656.png",
     "999998_books/978_5_93700_289_1_Apache_Iceberg_Полное_руководство_skladchik_org.pdf",
     "999997_work/MAGNIT/тест на знание SQL.md",
     "999997_work/MAGNIT/Без названия.canvas",
     "999997_work/MAGNIT/DDS (detail data store).md",
-    "5_3 Hook и метод execute.md",
-    "VPN/VLESS+Reality (2).md",
-    "GIT/Команды для своего репо.md",
-    "VPN/Без названия.md",
     "Квартира/Пожелания к квартире.md",
-    "Квартира/Важные делая при покупке квартры.md",
-    "GIT/Git запросы и обращение с репозиторием.md",
-    "Pasted image 20260225091251.png",
-    "Pasted image 20260225090829.png",
-    "Pasted image 20260225090608.png",
-    "Pasted image 20260225090517.png",
-    "Pasted image 20260225090426.png",
+    "999999_Images/Pasted image 20260225091251.png",
+    "999999_Images/Pasted image 20260225090829.png",
+    "999999_Images/Pasted image 20260225090608.png",
+    "999999_Images/Pasted image 20260225090517.png",
     "999998_books/Топ вопросы для Data Engineer.pdf",
     "999998_books/Метод_гистограмм_С_Солонин.pdf",
     "999998_books/Классические_задачи_computer_science_на_языке_Python_Д_Копец.pdf",
     "999998_books/Введение_в_машинное_обучение_с_помощью_python_А_Мюллер_С_Гвидо.pdf",
     "999998_books/Алгоритмы_построение_и_анализ_Т_Кормен.pdf",
-    "0_Готовимся к собеседованию/0.canvas",
-    "0_Готовимся к собеседованию/План подготовки.md",
-    "0_Готовимся к собеседованию/Интересные технологии которые стоит попробовать.md",
     "Pasted image 20260111180823.png",
     "Pasted image 20260111180310.png",
-    "Автомобили/Peugeot 208.md",
-    "Автомобили/KIA RIO 4.md",
-    "999998_books/1_Книги. Списки.md",
     "999998_books/Peugeot 208 (2014).pdf",
-    "Автомобили",
-    "999998_books/FB_PE-2021.pdf",
-    "Квартира/Рейтинг застройщиков.md",
-    "VPN/ASG VPN.md",
-    "Квартира/Что я хочу купить.md",
-    "Путешествия/0_источники про путешествия.md",
-    "Путешествия/ЮАР (Кейптайун).md",
-    "Путешествия/Черногория.md",
-    "Путешествия/Таиланд (Пхукет).md",
     "Квартира/Сравнение квартир.canvas",
     "Untitled.canvas",
     "Заметки для дырявой головы.canvas"
