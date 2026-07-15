@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 200
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -168,14 +168,14 @@
   "lastOpenFiles": [
     "2_ETL/DBT/DBT. Магнит запустить.md",
     "2_ETL/DBT/DBT. GIT.md",
-    "2_ETL/DBT/DBT. теория.md",
-    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
     "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
-    "GIT/Команды для своего репо.md",
+    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
     "GIT/Git запросы и обращение с репозиторием.md",
+    "GIT/Magnit.md",
+    "GIT/Команды для своего репо.md",
+    "2_ETL/DBT/DBT. теория.md",
     "999997_work/MAGNIT/Привести в порядок понятия.canvas",
     "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
-    "GIT/Magnit.md",
     "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
     "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
     "999997_work/MAGNIT/Без названия.canvas",

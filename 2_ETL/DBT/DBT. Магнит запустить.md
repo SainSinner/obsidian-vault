@@ -4,12 +4,13 @@
    **СMD** `venv\Scripts\activate.bat`
    **PowerShell** `venv\Scripts\Activate.ps1`
 2. Устанавливаем необходимые библиотеки (сначала проваливаемся в 
-   `cd C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model`
+   `cd C:\users\grekhov_sk\magnit-dwh-dbt\requirements.txt`
    затем
    `python -m pip install -r requirements.txt`
-3. из файла ниже `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\.env.template` содаeм со своими кредами`C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\.env`
-4. из файла ниже `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\profiles.template.yml` создаем о своими кредами `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\profiles.yml` 
-5. Проверяем рабочую директорию и запускаем проверку из папки **generator_dbt_model** `dbt debug --profiles-dir ./dwh20_test --project-dir ./dwh20_test`
+3. из файла ниже `C:\users\grekhov_sk\magnit-dwh-dbt\.env.template` содаeм со своими кредами `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\.env`
+4. из файла ниже `C:\users\grekhov_sk\magnit-dwh-dbt\dbt_project_marts\dwh20_marts\profiles.template.yml` создаем о своими кредами `C:\users\grekhov_sk\magnit-dwh-dbt\dbt_project_marts\dwh20_marts\profiles.yml` 
+5. Проваливаемся в рабочую директорию, например `cd "C:\users\grekhov_sk\magnit-dwh-dbt\dbt_project_marts\dwh20_marts"`
+6. Проверяем рабочую директорию и запускаем проверку из папки **generator_dbt_model** `dbt debug --profiles-dir ./ --project-dir ./`
    
    ==Должно выдать примерно следующее== 
    
@@ -39,14 +40,14 @@
    `C:\Users\grekhov_sk\.dbt_env\Lib\site-packages\thrift\transport\TSSLSocket.py:53: DeprecationWarning: ssl.PROTOCOL_TLS is deprecated self._context = ssl.SSLContext(ssl_version)`
    `11:54:03    Connection test: [OK connection ok]`
    `11:54:03  All checks passed!`
-1. Модели лежат тут `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\models`
+1. Модели например лежат тут `C:\users\grekhov_sk\magnit-dwh-dbt\dbt_project_marts\dwh20_marts\models`
 2. Чистим кэш 
 ```
    Remove-Item -Recurse -Force .\khd-2.0\target
    Remove-Item -Recurse -Force .\khd-2.0\dbt_packages
 ```
-1. Модели лучше запускать через тэг. Первым делом посмотрим какие модели обладают тэгом который мы хотим тригернуть `dbt ls --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "tag:t_hr_indvl_dh"`
-2. Далее тестируем DBT модель начинаем с (==УКАЗАВ КОНКРЕНТУЮ МОДЕЛЬ ЧЕРЕЗ ТЭГ ИЛИ НАЗВАНИЕ МОДЕЛИ==) `dbt compile --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select tag:t_hr_indvl_dh --debug`
+1. Модели лучше запускать через тэг (но у меня не получилось, перечисляю названия моделей). Первым делом посмотрим какие модели обладают тэгом который мы хотим тригернуть `dbt compile --profiles-dir ./ --project-dir ./ --select "t_hr_indvl_cntct_dh v_hr_indvl_cntct_dh t_hr_indvl_cntct_dh_tmp_final v_hr_indvl_cntct_ds" --debug`
+2. Далее тестируем DBT модель начинаем с (==УКАЗАВ КОНКРЕНТУЮ МОДЕЛЬ ЧЕРЕЗ ТЭГ ИЛИ НАЗВАНИЕ МОДЕЛИ==) `dbt compile --profiles-dir ./ --project-dir ./ --select tag:t_hr_indvl_dh --debug`
    
    ==Выдаст примерно следующее==
    
@@ -474,5 +475,5 @@
      from base_query bq
    13:31:52  Command `dbt compile` succeeded at 16:31:52.759062 after 41.66 seconds
    13:31:52  Flushing usage events
-3. Скомпилированные объекты появятся в `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\target`
-4. Пробуем запустить модель `dbt run --profiles-dir ./dwh20_test --project-dir ./dwh20_test --select "tag:t_hr_indvl_dh" --vars "{hooks_enabled: false}"`
+1. Скомпилированные объекты появятся например в `C:\users\grekhov_sk\khd-2.0\airflow_etl\dags\magn\generator_dbt_model\dwh20_test\target`
+2. Пробуем запустить модель `dbt run --profiles-dir ./ --project-dir ./ --select "t_hr_indvl_dh" --vars "{hooks_enabled: false}"`
