@@ -17,4 +17,17 @@
 10. git pull
 11. делаем MR origin/feature/HRANALYTICS-670_p в origin/master
 ### Переключиться на другую ветку несмотря на изменения в текущей
-git checkout -f feature/HRANALYTICS-712_t
+git checkout -f origin/feature/HRANALYTICS-781_t
+### Удалить ветку из локального репозитория
+git branch -D feature/HRANALYTICS-764_p
+### Убрать из отслеживания битые файлы KHD 2.0
+git update-index --assume-unchanged sql/gen/raw/ddl/table/archive/arch_lnd_0898_000.arch_budgetitems_extdimensionkinds.sql 
+
+**или таким образом все из определенной папки**
+
+git ls-files sql/gen/raw/ddl | xargs git update-index --assume-unchanged
+
+### Вернуть в отслеживаемые битые файлы KHD 2.0
+
+git ls-files sql/gen/raw/ddl | xargs git update-index --no-assume-unchanged
+

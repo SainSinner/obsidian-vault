@@ -95,7 +95,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 717.5
+=======
+    "width": 200
+>>>>>>> 46f9596abbad58f54598c9b2501d165d9a49aa20
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -183,6 +187,7 @@
   },
   "active": "0e37d83fa1a32c69",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "2_ETL/NIFI/JSLT.md",
     "2_ETL/NIFI/Apache NiFi Expression Language Guide.md",
     "2_ETL/NIFI/SQL который применяется в NIFI.md",
@@ -197,6 +202,27 @@
     "2_ETL/NIFI/Как поменять название кода у триггера который инициирует в других группах запуск процессов.md",
     "2_ETL/NIFI/NIFI Registry/перемещаем flow в новый бакет.md",
     "2_ETL/NIFI/Запуск nifi на локальной машине.md",
+=======
+    "2_ETL/DBT/DBT. Магнит запустить.md",
+    "2_ETL/DBT/DBT. GIT.md",
+    "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
+    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
+    "GIT/Git запросы и обращение с репозиторием.md",
+    "GIT/Magnit.md",
+    "GIT/Команды для своего репо.md",
+    "2_ETL/DBT/DBT. теория.md",
+    "999997_work/MAGNIT/Привести в порядок понятия.canvas",
+    "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
+    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
+    "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
+    "999997_work/MAGNIT/Без названия.canvas",
+    "Pasted image 20260430122311.png",
+    "Pasted image 20260430120927.png",
+    "Pasted image 20260430120859.png",
+    "Pasted image 20260424144056.png",
+    "Pasted image 20260424144006.png",
+    "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
+>>>>>>> 46f9596abbad58f54598c9b2501d165d9a49aa20
     "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
     "Без названия.base",
     "999999_Images/Pasted image 20260424144006.png",
