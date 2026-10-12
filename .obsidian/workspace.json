@@ -1,56 +1,51 @@
 {
   "main": {
-    "id": "e14c87aea1c05e69",
+    "id": "1bb3bbf58adfea8c",
     "type": "split",
     "children": [
       {
-        "id": "3d13fcd88601c85c",
+        "id": "40956bf22077dfc4",
         "type": "tabs",
         "children": [
           {
-            "id": "147e5faf0810180b",
+            "id": "b1b4c820962a5a24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VPN/VLESS+Reality + Proxy socks5.md",
+                "file": "AI/Подписки.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VLESS+Reality + Proxy socks5"
+              "title": "Подписки"
             }
           },
           {
-            "id": "0e37d83fa1a32c69",
+            "id": "414369f6b5d1bcf0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2_ETL/NIFI/Apache NiFi Expression Language Guide.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apache NiFi Expression Language Guide"
+              "title": "Новая вкладка"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d0186e386ae5ea08",
+    "id": "8e678a8f36dbfa43",
     "type": "split",
     "children": [
       {
-        "id": "ede244ccb0e37e86",
+        "id": "12e8f70b05f35229",
         "type": "tabs",
         "children": [
           {
-            "id": "822df6e08e5bf89f",
+            "id": "4c286f24362444dc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,13 +60,13 @@
             }
           },
           {
-            "id": "de51cfe7951dbcd3",
+            "id": "e4ee604d88db7771",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -82,11 +77,14 @@
             }
           },
           {
-            "id": "76eaf993aa1286d5",
+            "id": "97b00ac2b0ee825c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Закладки"
             }
@@ -95,27 +93,23 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 717.5
-=======
-    "width": 200
->>>>>>> 46f9596abbad58f54598c9b2501d165d9a49aa20
+    "width": 300
   },
   "right": {
-    "id": "522fd2f53318f02e",
+    "id": "0b2305105931dfd6",
     "type": "split",
     "children": [
       {
-        "id": "7b3c29a676bc5bef",
+        "id": "17368e53e2b61c7e",
         "type": "tabs",
         "children": [
           {
-            "id": "aac95ad6876e7b7f",
+            "id": "3d33ad3c00b818cc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Greenplum/Полезные вопросы по GreenPlum.md",
+                "file": "AI/Подписки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,46 +119,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Полезные вопросы по GreenPlum"
+              "title": "Обратные ссылки"
             }
           },
           {
-            "id": "1f23035a92d18024",
+            "id": "58943a9058d2d259",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Greenplum/Динамическая генерация условия.md",
+                "file": "AI/Подписки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Динамическая генерация условия"
+              "title": "Исходящие ссылки"
             }
           },
           {
-            "id": "6a0a18e5bb40bf46",
+            "id": "a87547a193074abc",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Теги"
             }
           },
           {
-            "id": "3cd3d5e6d5b3d720",
+            "id": "ec5ea99b11fc1c51",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Greenplum/Динамическая генерация условия.md"
+                "file": "AI/Подписки.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Динамическая генерация условия"
+              "title": "Структура"
             }
           }
         ]
@@ -185,81 +184,21 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "0e37d83fa1a32c69",
+  "active": "b1b4c820962a5a24",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "2_ETL/NIFI/JSLT.md",
-    "2_ETL/NIFI/Apache NiFi Expression Language Guide.md",
-    "2_ETL/NIFI/SQL который применяется в NIFI.md",
-    "2_ETL/NIFI/Mime-Type in NIFI.md",
-    "2_ETL/NIFI/JsonPath and XPath памятка.md",
-    "2_ETL/NIFI/Формирование заранее Expression Language NIFI в атрибуте и последующее его извлечение в нужном процессоре.md",
-    "2_ETL/NIFI/Реализация COPY в GP через JDBC.md",
-    "2_ETL/NIFI/Проблема определения decimal or numeric чисел как string при выгрузке данных из базы данных.md",
-    "2_ETL/NIFI/Проблема неявного указания количества цифр после , при использовании типа данных numeric.md",
-    "2_ETL/NIFI/Проблема конвертации инженерной записи чисел.md",
-    "2_ETL/NIFI/Настройка провенанс.md",
-    "2_ETL/NIFI/Как поменять название кода у триггера который инициирует в других группах запуск процессов.md",
-    "2_ETL/NIFI/NIFI Registry/перемещаем flow в новый бакет.md",
-    "2_ETL/NIFI/Запуск nifi на локальной машине.md",
-=======
-    "2_ETL/DBT/DBT. Магнит запустить.md",
-    "2_ETL/DBT/DBT. GIT.md",
-    "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
-    "2_ETL/DBT/DBT. Пример настройки одной модели.md",
-    "GIT/Git запросы и обращение с репозиторием.md",
-    "GIT/Magnit.md",
-    "GIT/Команды для своего репо.md",
-    "2_ETL/DBT/DBT. теория.md",
-    "999997_work/MAGNIT/Привести в порядок понятия.canvas",
-    "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
-    "1_DataBase/1_PostgreSQL_SQLLang/Оконные функции.md",
-    "1_DataBase/Greenplum/Рабочие заметки/Динамическая генерация условия.md",
+    "AI/Promts/Заметки к моделям в OpenCode.md",
+    "AI/Подписки.md",
+    "999997_work/MAGNIT/ЧХД HR/Доступы, слои, права, маскирование/trino-hr-access-standard.md",
+    "999997_work/MAGNIT/ЧХД HR/Доступы, слои, права, маскирование/trino-hr-context-prompt.md",
+    "999997_work/MAGNIT/Все подряд/Тенант HR.md",
+    "999997_work/MAGNIT/Все подряд/ИБ Магнит_ликбез.canvas",
+    "999997_work/MAGNIT/Все подряд",
     "999997_work/MAGNIT/Без названия.canvas",
-    "Pasted image 20260430122311.png",
-    "Pasted image 20260430120927.png",
-    "Pasted image 20260430120859.png",
-    "Pasted image 20260424144056.png",
-    "Pasted image 20260424144006.png",
-    "WINDOWS CMD/Работа с сетями, IP, DNS, host.md",
->>>>>>> 46f9596abbad58f54598c9b2501d165d9a49aa20
-    "Как узнать собственный токен. Например в яндекс музыке. Перенос музыки из вк..md",
-    "Без названия.base",
-    "999999_Images/Pasted image 20260424144006.png",
-    "5_3 Hook и метод execute.md",
-    "999999_Images/Pasted image 20260424144056.png",
-    "999999_Images/Pasted image 20260430122311.png",
-    "999999_Images/Pasted image 20260430120927.png",
-    "999999_Images/Pasted image 20260430120859.png",
-    "VPN/VLESS+Reality RU.md",
-    "VPN/VLESS+Reality + Proxy socks5.md",
-    "VPN/Настройка VPN и Proxy.md",
-    "GIT/Команды для своего репо.md",
-    "GIT/Magnit.md",
-    "999997_work/MAGNIT/ИБ Магнит_ликбез.canvas",
-    "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
-    "2_ETL/DBT/DBT. Магнит запустить.md",
-    "2_ETL/DBT/DBT. GIT.md",
-    "GIT/Git запросы и обращение с репозиторием.md",
-    "2_ETL/Apache Airflow/2_Ликбез по ETL/2_2 Идемпотентность.md",
-    "999999_Images/Pasted image 20260203084405.png",
-    "999999_Images/Pasted image 20260225090426.png",
-    "999999_Images/Pasted image 20260203084445.png",
-    "999998_books/Теннис_Психология_успешной_игры_Гэллуэй_Т.pdf",
-    "велики",
-    "0_Готовимся к собеседованию/0.canvas",
-    "999999_Images/Pasted image 20260306111656.png",
-    "999998_books/978_5_93700_289_1_Apache_Iceberg_Полное_руководство_skladchik_org.pdf",
-    "999997_work/MAGNIT/Без названия.canvas",
-    "999999_Images/Pasted image 20260225091251.png",
-    "999998_books/Топ вопросы для Data Engineer.pdf",
-    "999998_books/Метод_гистограмм_С_Солонин.pdf",
-    "999998_books/Классические_задачи_computer_science_на_языке_Python_Д_Копец.pdf",
-    "999998_books/Введение_в_машинное_обучение_с_помощью_python_А_Мюллер_С_Гвидо.pdf",
-    "999998_books/Алгоритмы_построение_и_анализ_Т_Кормен.pdf",
-    "999998_books/Peugeot 208 (2014).pdf",
-    "Квартира/Сравнение квартир.canvas",
-    "Untitled.canvas",
-    "Заметки для дырявой головы.canvas"
+    "999997_work/MAGNIT/ЧХД HR/Доступы, слои, права, маскирование",
+    "999997_work/MAGNIT/ЧХД HR",
+    "AI/Без названия.md",
+    "AI/Promts",
+    "AI/OpenCode GO",
+    "AI"
   ]
 }
