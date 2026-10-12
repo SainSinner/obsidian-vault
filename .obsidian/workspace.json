@@ -11,14 +11,17 @@
             "id": "d24b6025476fa35b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "2_ETL/DBT/DBT. GIT.md",
-                "mode": "source",
-                "source": false
+                "file": "999997_work/MAGNIT/Без названия.canvas",
+                "viewState": {
+                  "x": 150,
+                  "y": -410,
+                  "zoom": -0.7384914483971666
+                }
               },
-              "icon": "lucide-file",
-              "title": "DBT. GIT"
+              "icon": "lucide-layout-dashboard",
+              "title": "Без названия"
             }
           }
         ]
@@ -41,7 +44,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -78,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 669.5
   },
   "right": {
     "id": "522fd2f53318f02e",
@@ -166,8 +171,9 @@
   },
   "active": "d24b6025476fa35b",
   "lastOpenFiles": [
-    "2_ETL/DBT/DBT. Магнит запустить.md",
+    "HotKeys/1_hot_keys.md",
     "2_ETL/DBT/DBT. GIT.md",
+    "2_ETL/DBT/DBT. Магнит запустить.md",
     "2_ETL/DBT/DBT. Магнит поставить и запустить.md",
     "2_ETL/DBT/DBT. Пример настройки одной модели.md",
     "GIT/Git запросы и обращение с репозиторием.md",
@@ -193,7 +199,6 @@
     "999998_books/978_5_93700_289_1_Apache_Iceberg_Полное_руководство_skladchik_org.pdf",
     "1_DataBase/Greenplum/0_Полезные вопросы по GreenPlum Собесу.md",
     "Pasted image 20260306111656.png",
-    "HotKeys/1_hot_keys.md",
     "HotKeys/HotKey DataGrip.md",
     "Pasted image 20260203084405.png",
     "Pasted image 20260203084445.png",
