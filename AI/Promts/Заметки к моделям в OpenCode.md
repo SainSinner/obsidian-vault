@@ -15,7 +15,8 @@
 Правила:
 - provider_id и model_id бери строго из каталога модели (models.dev,
   эндпоинт провайдера /v1/models) — не выдумывай.
-- Заметка пишется через двоеточие после имени: "<Имя>: <для чего>"
+- Имя модели дополняй тегами без символа # в формате:
+  "<Имя> — <задача>, <качество/экономия>, <vpn/no_vpn/vpn_to_check>".
 - Схема конфига не позволяет отдельных полей description/note —
   заметку можно добавить только через переопределение "name".
 - В схеме модели additionalProperties: false — добавляй только
@@ -25,23 +26,27 @@
 - После правок проверь валидность JSONC и напомни пользователю
   перезапустить OpenCode.
 
-Пример (реальный кейс, провайдер opencode-go):
-"provider": {
-  "opencode-go": {
-    "models": {
-      "gpt-6-luna":                { "name": "GPT-6 Luna: Разработка" },
-      "glm-5.3-flash":             { "name": "GLM-5.3-Flash: Разработка" },
-      "grok-4.7":                  { "name": "Grok 4.7: Поиск" },
-      "qwen3.8-flash":             { "name": "Qwen3.8 Flash: Поиск" },
-      "kimi-k3":                   { "name": "Kimi K3: Архитектура, большой репозиторий" },
-      "deepseek-v4.1-flash":       { "name": "DeepSeek V4.1 Flash: Архитектура" },
-      "deepseek-v4-pro":           { "name": "DeepSeek V4 Pro: Алгоритмы" },
-      "deepseek-v4-flash":         { "name": "DeepSeek V4 Flash: Алгоритмы" },
-      "kimi-k2.6":                 { "name": "Kimi K2.6: Большой репозиторий" },
-      "muse-spark-1.2-contributor":{ "name": "Muse Spark 1.2: Изображения" },
-      "longcat-2.5-preview-free":  { "name": "LongCat 2.5-preview-free: Изображения" }
+Пример (актуальный список моделей, провайдер opencode-go):
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "opencode-go": {
+      "models": {
+        "gpt-6-luna":                  { "name": "GPT-6 Luna — сложно, качество, vpn" },
+        "kimi-k2.7-code":              { "name": "Kimi K2.7 Code — сложно, качество, no_vpn" },
+        "qwen3.7-plus":                { "name": "Qwen3.7 Plus — сложно, качество, vpn_to_check" },
+        "mimo-v2.6-pro":               { "name": "MiMo-V2.6-Pro — сложно, экономия, no_vpn" },
+        "gpt-5.6-luna":                { "name": "GPT 5.6 Luna — средне, качество, vpn_to_check" },
+        "glm-5.3-flash":               { "name": "GLM-5.3-Flash — средне, экономия, no_vpn" },
+        "qwen3.8-flash":               { "name": "Qwen3.8 Flash — поиск, качество, no_vpn" },
+        "deepseek-v4.1-flash":         { "name": "DeepSeek V4.1 Flash — поиск, экономия, no_vpn" },
+        "muse-spark-1.2-contributor":  { "name": "Muse Spark 1.2 — изображения, качество, vpn" },
+        "deepseek-v4-flash-vision-exp": { "name": "DeepSeek V4 Flash Vision Exp — изображения, экономия, vpn_to_check" }
+      }
     }
   }
 }
+```
 
 Мои заметки: <список "model_id: заметка" или "Имя: заметка">

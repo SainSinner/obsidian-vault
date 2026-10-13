@@ -20,16 +20,6 @@
               "icon": "lucide-file",
               "title": "Подписки"
             }
-          },
-          {
-            "id": "414369f6b5d1bcf0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
-            }
           }
         ]
       }
@@ -93,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0b2305105931dfd6",
